@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Branding</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>Branding settings only apply after complete restart of the app</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>TrueValue</key>
+			<string>YES</string>
+			<key>FalseValue</key>
+			<string>NO</string>
+			<key>Key</key>
+			<string>TeacherPlannerBrandingActive</string>
+			<key>Title</key>
+			<string>Active</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>AllCharacters</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>TeacherPlannerBrandingTitleColor</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Title Color #</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>AllCharacters</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>TeacherPlannerBrandingHighlightColor</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Highlight Color #</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>AllCharacters</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>TeacherPlannerBrandingTopBackgroundColor</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Top Background Color #</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>AllCharacters</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>TeacherPlannerBrandingTopButtonColor</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Top Button Color #</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>AllCharacters</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>TeacherPlannerBrandingBottomBackgroundColor</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Bottom Background Color #</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>AllCharacters</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>TeacherPlannerBrandingBottomButtonColor</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Bottom Button Color #</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>TrueValue</key>
+			<string>YES</string>
+			<key>FalseValue</key>
+			<string>NO</string>
+			<key>Key</key>
+			<string>TeacherPlannerBrandingStatusBarLight</string>
+			<key>Title</key>
+			<string>Light Status Bar</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Security</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>Shorter times are more secure</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Request Passcode</string>
+			<key>Key</key>
+			<string>TeacherPlannerSecurityPasscodeTimeout</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Titles</key>
+			<array>
+				<string>Immediately</string>
+				<string>After 1 minute</string>
+				<string>After 5 minutes</string>
+				<string>After 10 minutes</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>5</integer>
+				<integer>10</integer>
+			</array>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

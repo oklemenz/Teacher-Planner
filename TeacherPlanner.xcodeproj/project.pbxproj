@@ -1,0 +1,1875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2200008A1912583100BD5712 /* StudentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220000891912583100BD5712 /* StudentTableViewController.m */; };
+		2202AE551C856A350010A9C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2202AE541C856A350010A9C6 /* AVFoundation.framework */; };
+		2202AE571C856A3A0010A9C6 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2202AE561C856A3A0010A9C6 /* AVKit.framework */; };
+		220313A719278167000552BF /* SchoolYearAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313A619278167000552BF /* SchoolYearAnnotationViewController.m */; };
+		220313AA19278194000552BF /* SettingsTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313A919278194000552BF /* SettingsTabBarViewController.m */; };
+		220313AD1927821D000552BF /* SettingsGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313AC1927821D000552BF /* SettingsGeneralViewController.m */; };
+		220313B0192783CC000552BF /* SchoolClassTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313AF192783CC000552BF /* SchoolClassTabBarViewController.m */; };
+		220313B3192783DA000552BF /* SchoolClassGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313B2192783DA000552BF /* SchoolClassGeneralViewController.m */; };
+		220313B61927841F000552BF /* SchoolClassSeatingPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313B51927841F000552BF /* SchoolClassSeatingPlanViewController.m */; };
+		220313B91927843C000552BF /* SchoolClassAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313B81927843C000552BF /* SchoolClassAnnotationViewController.m */; };
+		220313BC19278450000552BF /* SchoolClassExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313BB19278450000552BF /* SchoolClassExamViewController.m */; };
+		220313BF19278691000552BF /* StudentTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313BE19278691000552BF /* StudentTabBarViewController.m */; };
+		220313C2192786C3000552BF /* StudentGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313C1192786C3000552BF /* StudentGeneralViewController.m */; };
+		220313C5192786FD000552BF /* StudentTeachingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313C4192786FD000552BF /* StudentTeachingViewController.m */; };
+		220313C81927871F000552BF /* StudentGradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313C71927871F000552BF /* StudentGradeViewController.m */; };
+		220313CB1927876F000552BF /* PersonAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313CA1927876F000552BF /* PersonAnnotationViewController.m */; };
+		220313CE19278B1D000552BF /* AbstractContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313CD19278B1D000552BF /* AbstractContentTableViewController.m */; };
+		220313D119279418000552BF /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313D019279418000552BF /* Settings.m */; };
+		220313D4192794D7000552BF /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313D3192794D7000552BF /* Teacher.m */; };
+		220313D71927955E000552BF /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313D61927955E000552BF /* School.m */; };
+		220313DA19279AA5000552BF /* TransientCustomData.m in Sources */ = {isa = PBXBuildFile; fileRef = 220313D919279AA5000552BF /* TransientCustomData.m */; };
+		220C17AB1943512800D75829 /* AbstractContentDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C17AA1943512800D75829 /* AbstractContentDetailTableViewController.m */; };
+		220DEEED1AAE3469007D6B55 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 220DEEEC1AAE3469007D6B55 /* XMLReader.m */; };
+		22115E941A7031F700ABBA5F /* SchoolClassExportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22115E931A7031F700ABBA5F /* SchoolClassExportTableViewController.m */; };
+		22124F662076B2E70091ECA5 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22124F652076B2E70091ECA5 /* libxml2.2.tbd */; };
+		2219BB671953144D005A45FA /* JSONValueTransformer+NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2219BB661953144D005A45FA /* JSONValueTransformer+NSData.m */; };
+		221BD0691AB16E6000C91F82 /* InlineSliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BD0681AB16E6000C91F82 /* InlineSliderTableViewCell.m */; };
+		221BD06C1AB1766900C91F82 /* InlineColorPreviewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BD06B1AB1766900C91F82 /* InlineColorPreviewTableViewCell.m */; };
+		2221D7CB1A50399E0004ECF4 /* InlineMultilineEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221D7CA1A50399E0004ECF4 /* InlineMultilineEditTableViewCell.m */; };
+		2221D93019E1CD5E0077AC5A /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221D92F19E1CD5E0077AC5A /* UILabel+Extension.m */; };
+		2222965A1B8120D9001B5D60 /* DictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222296591B8120D9001B5D60 /* DictionaryViewController.m */; };
+		2222965D1B813632001B5D60 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222965C1B813632001B5D60 /* Word.m */; };
+		222639A31A4F2120006B8F55 /* PersonListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222639A21A4F2120006B8F55 /* PersonListTableViewController.m */; };
+		222639A61A4F23FF006B8F55 /* SettingsPersonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222639A51A4F23FF006B8F55 /* SettingsPersonsViewController.m */; };
+		222B0CB21928F619002CA400 /* PropertyBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B0CB11928F619002CA400 /* PropertyBinding.m */; };
+		222DEE9D1A6BC83200C5DC11 /* JSONChildEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DEE9C1A6BC83200C5DC11 /* JSONChildEntity.m */; };
+		222DEEA01A6BC88600C5DC11 /* JSONTransientEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DEE9F1A6BC88600C5DC11 /* JSONTransientEntity.m */; };
+		222DEEA31A6BCF8A00C5DC11 /* CodesBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DEEA21A6BCF8A00C5DC11 /* CodesBase.m */; };
+		222DEEA61A6BD04400C5DC11 /* ModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DEEA51A6BD04400C5DC11 /* ModelBase.m */; };
+		22317009198E7FD500353BAE /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 22317008198E7FD500353BAE /* Configuration.m */; };
+		2237F2D01A52B8A000495FCA /* Binding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2237F2CF1A52B8A000495FCA /* Binding.m */; };
+		2237F2D31A52F86C00495FCA /* SettingsAddExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2237F2D21A52F86C00495FCA /* SettingsAddExportViewController.m */; };
+		2237F2D71A52FF9000495FCA /* TransientNewExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2237F2D61A52FF9000495FCA /* TransientNewExport.m */; };
+		2238F64E195AA02300D66EBC /* TileLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2238F649195AA02300D66EBC /* TileLayoutView.m */; };
+		2238F64F195AA02300D66EBC /* TileLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2238F64B195AA02300D66EBC /* TileLayoutViewController.m */; };
+		2238F650195AA02300D66EBC /* TileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2238F64D195AA02300D66EBC /* TileViewController.m */; };
+		2241D30319E1418600A433BA /* Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241D30219E1418600A433BA /* Attachment.m */; };
+		2241D30619E16FA400A433BA /* DefaultBindable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241D30519E16FA400A433BA /* DefaultBindable.m */; };
+		22440CF519547B570077CF1F /* ShareUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22440CF419547B570077CF1F /* ShareUtilities.m */; };
+		22440CF8195480E90077CF1F /* ExportCalendarActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 22440CF7195480E90077CF1F /* ExportCalendarActivity.m */; };
+		22440D05195486A90077CF1F /* PDFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22440D01195486A90077CF1F /* PDFTableViewController.m */; };
+		22451A50186F2E3E0035E34F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22451A4F186F2E3E0035E34F /* Foundation.framework */; };
+		22451A52186F2E3E0035E34F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22451A51186F2E3E0035E34F /* CoreGraphics.framework */; };
+		22451A54186F2E3E0035E34F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22451A53186F2E3E0035E34F /* UIKit.framework */; };
+		22451A5C186F2E3E0035E34F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22451A5B186F2E3E0035E34F /* main.m */; };
+		22451A6E186F2E3E0035E34F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22451A6D186F2E3E0035E34F /* Images.xcassets */; };
+		22451A76186F2E3E0035E34F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22451A4F186F2E3E0035E34F /* Foundation.framework */; };
+		22451A77186F2E3E0035E34F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22451A53186F2E3E0035E34F /* UIKit.framework */; };
+		22484E3E191C1F2C0068FEE0 /* AbstractMenuBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22484E3D191C1F2C0068FEE0 /* AbstractMenuBaseTableViewController.m */; };
+		224C417F194C8823009FA33D /* InlineTimeFromToTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C416B194C8823009FA33D /* InlineTimeFromToTableViewCell.m */; };
+		224C4180194C8823009FA33D /* InlineSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C416D194C8823009FA33D /* InlineSwitchTableViewCell.m */; };
+		224C4181194C8823009FA33D /* InlineCountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C416F194C8823009FA33D /* InlineCountTableViewCell.m */; };
+		224C4182194C8823009FA33D /* InlinePhotoPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C4171194C8823009FA33D /* InlinePhotoPickerTableViewCell.m */; };
+		224C4183194C8823009FA33D /* InlineEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C4173194C8823009FA33D /* InlineEditTableViewCell.m */; };
+		224C4184194C8823009FA33D /* InlineDatePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C4175194C8823009FA33D /* InlineDatePickerTableViewCell.m */; };
+		224C4185194C8823009FA33D /* InlineCodeSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C4177194C8823009FA33D /* InlineCodeSelectionTableViewController.m */; };
+		224C4186194C8823009FA33D /* InlineCodeSelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C4179194C8823009FA33D /* InlineCodeSelectionTableViewCell.m */; };
+		224C4187194C8823009FA33D /* InlineCodePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C417B194C8823009FA33D /* InlineCodePickerTableViewCell.m */; };
+		22513623195F630700237CB0 /* Bindable.m in Sources */ = {isa = PBXBuildFile; fileRef = 22513622195F630700237CB0 /* Bindable.m */; };
+		225213611A7A12F500373F65 /* AbstractMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225213601A7A12F500373F65 /* AbstractMenuTableViewController.m */; };
+		225213641A7A17FD00373F65 /* SchoolClassTeachingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225213631A7A17FD00373F65 /* SchoolClassTeachingViewController.m */; };
+		2253BDE21AF3B5B600A06155 /* TransientReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2253BDE11AF3B5B600A06155 /* TransientReminder.m */; };
+		2254E4911AB5A79500E7B0EB /* SchoolClassLessonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2254E4901AB5A79500E7B0EB /* SchoolClassLessonsViewController.m */; };
+		2255321D1A913E9E0057B0D1 /* XLSFileCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255321C1A913E9E0057B0D1 /* XLSFileCreator.m */; };
+		2257297B19ECEE7300F09C7E /* JSONRootEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257297A19ECEE7300F09C7E /* JSONRootEntity.m */; };
+		22578DAD18829DFB000C5B6F /* Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D6718829DFA000C5B6F /* Crypto.m */; };
+		22578DAE18829DFB000C5B6F /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D6918829DFA000C5B6F /* KeychainItemWrapper.m */; };
+		22578DAF18829DFB000C5B6F /* SecureStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D6B18829DFA000C5B6F /* SecureStore.m */; };
+		22578DB118829DFB000C5B6F /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D7018829DFA000C5B6F /* Application.m */; };
+		22578DB218829DFB000C5B6F /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D7218829DFA000C5B6F /* Model.m */; };
+		22578DB318829DFB000C5B6F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D7418829DFA000C5B6F /* Person.m */; };
+		22578DB418829DFB000C5B6F /* PersonRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D7618829DFA000C5B6F /* PersonRef.m */; };
+		22578DB518829DFB000C5B6F /* SchoolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D7818829DFA000C5B6F /* SchoolClass.m */; };
+		22578DB618829DFB000C5B6F /* SchoolYear.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D7A18829DFA000C5B6F /* SchoolYear.m */; };
+		22578DB718829DFB000C5B6F /* SchoolYearRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D7C18829DFA000C5B6F /* SchoolYearRef.m */; };
+		22578DB818829DFB000C5B6F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D7E18829DFA000C5B6F /* Student.m */; };
+		22578DB918829DFB000C5B6F /* JSONEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D8118829DFA000C5B6F /* JSONEntity.m */; };
+		22578DBA18829DFB000C5B6F /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D8318829DFA000C5B6F /* JSONKeyMapper.m */; };
+		22578DBB18829DFB000C5B6F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D8518829DFA000C5B6F /* JSONModel.m */; };
+		22578DBC18829DFB000C5B6F /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D8718829DFA000C5B6F /* JSONModelArray.m */; };
+		22578DBD18829DFB000C5B6F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D8918829DFA000C5B6F /* JSONModelClassProperty.m */; };
+		22578DBE18829DFB000C5B6F /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D8B18829DFA000C5B6F /* JSONModelError.m */; };
+		22578DBF18829DFB000C5B6F /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D8D18829DFA000C5B6F /* JSONValueTransformer.m */; };
+		22578DC018829DFB000C5B6F /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D8F18829DFA000C5B6F /* NSArray+JSONModel.m */; };
+		22578DC118829DFB000C5B6F /* LockScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D9118829DFA000C5B6F /* LockScreenViewController.m */; };
+		22578DC218829DFB000C5B6F /* LockScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22578D9218829DFA000C5B6F /* LockScreenViewController.xib */; };
+		22578DC318829DFB000C5B6F /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D9418829DFA000C5B6F /* StartViewController.m */; };
+		22578DC618829DFB000C5B6F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D9918829DFB000C5B6F /* RootViewController.m */; };
+		22578DC718829DFB000C5B6F /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578D9B18829DFB000C5B6F /* Utilities.m */; };
+		22578DC818829DFB000C5B6F /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 22578D9F18829DFB000C5B6F /* ioapi.c */; };
+		22578DC918829DFB000C5B6F /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 22578DA118829DFB000C5B6F /* mztools.c */; };
+		22578DCA18829DFB000C5B6F /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 22578DA318829DFB000C5B6F /* unzip.c */; };
+		22578DCB18829DFB000C5B6F /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 22578DA518829DFB000C5B6F /* zip.c */; };
+		22578DCC18829DFB000C5B6F /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22578DA818829DFB000C5B6F /* ZipArchive.mm */; };
+		22578DCD18829DFB000C5B6F /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578DAA18829DFB000C5B6F /* SSZipArchive.m */; };
+		22578DD118829EC5000C5B6F /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578DD018829EC5000C5B6F /* UIColor+Extension.m */; };
+		2257C5A91A29F406000DCC68 /* ApplicationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257C5A81A29F406000DCC68 /* ApplicationTableViewController.m */; };
+		225EBD631A47093600D4B2F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225EBD5F1A47093600D4B2F0 /* InfoPlist.strings */; };
+		225EBD651A47093600D4B2F0 /* TeacherPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225EBD621A47093600D4B2F0 /* TeacherPlannerTests.m */; };
+		2260FD2B1A46CFA0006C76CD /* SettingsExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260FD2A1A46CFA0006C76CD /* SettingsExportViewController.m */; };
+		2260FD311A46D342006C76CD /* AnnotationContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260FD301A46D342006C76CD /* AnnotationContainer.m */; };
+		226433E51A51530900AC7D3A /* PersonListDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226433E41A51530900AC7D3A /* PersonListDetailTableViewController.m */; };
+		226452B41A472DF600FD48EA /* ImportApplicationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226452B31A472DF600FD48EA /* ImportApplicationTableViewController.m */; };
+		2268E9871A9141D800AC62E5 /* exam.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2268E9861A9141D800AC62E5 /* exam.xml */; };
+		226AB01119151F9B00E4B6F9 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 226AB01019151F9B00E4B6F9 /* Photo.m */; };
+		226B37F91B1355DD00174E49 /* TransientAnnotationContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 226B37F81B1355DD00174E49 /* TransientAnnotationContainer.m */; };
+		226D1DC61A434432004E1ACE /* ContextBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 226D1DC51A434432004E1ACE /* ContextBinding.m */; };
+		226D99FF19328809003041B8 /* AbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 226D99FE19328809003041B8 /* AbstractTableViewCell.m */; };
+		226E431B1AF534F40003AD42 /* JSONValueTransformer+UILocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 226E431A1AF534F40003AD42 /* JSONValueTransformer+UILocalNotification.m */; };
+		226E431F1AF536C70003AD42 /* JSONValueTransformer+NSDateComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 226E431E1AF536C70003AD42 /* JSONValueTransformer+NSDateComponents.m */; };
+		2271F7D71AC02C8100D8A058 /* NSCalendar+RSDFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271F7C91AC02C8100D8A058 /* NSCalendar+RSDFAdditions.m */; };
+		2271F7D81AC02C8100D8A058 /* RSDFDatePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271F7CC1AC02C8100D8A058 /* RSDFDatePickerCollectionView.m */; };
+		2271F7D91AC02C8100D8A058 /* RSDFDatePickerCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271F7CE1AC02C8100D8A058 /* RSDFDatePickerCollectionViewLayout.m */; };
+		2271F7DA1AC02C8100D8A058 /* RSDFDatePickerDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271F7D01AC02C8100D8A058 /* RSDFDatePickerDayCell.m */; };
+		2271F7DB1AC02C8100D8A058 /* RSDFDatePickerDaysOfWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271F7D21AC02C8100D8A058 /* RSDFDatePickerDaysOfWeekView.m */; };
+		2271F7DC1AC02C8100D8A058 /* RSDFDatePickerMonthHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271F7D41AC02C8100D8A058 /* RSDFDatePickerMonthHeader.m */; };
+		2271F7DD1AC02C8100D8A058 /* RSDFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271F7D61AC02C8100D8A058 /* RSDFDatePickerView.m */; };
+		2271F7E01AC0463500D8A058 /* RSDFDatePickerDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271F7DF1AC0463500D8A058 /* RSDFDatePickerDetailView.m */; };
+		2273C8CB1A42AEA300FDF815 /* InlineEntitySelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2273C8CA1A42AEA300FDF815 /* InlineEntitySelectionTableViewCell.m */; };
+		2273D7861AB4626A002593DE /* Lesson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2273D7851AB4626A002593DE /* Lesson.m */; };
+		2273D7891AB477A4002593DE /* InlineDisplayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2273D7881AB477A4002593DE /* InlineDisplayTableViewCell.m */; };
+		227D60CD1AAB650B00EE851B /* StudentAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D60CC1AAB650B00EE851B /* StudentAnnotationViewController.m */; };
+		227F2505195CA413001A8079 /* TileViewControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 227F2504195CA413001A8079 /* TileViewControllerDataSource.m */; };
+		22833EBD18702B11002DFF1A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22833EBC18702B11002DFF1A /* Security.framework */; };
+		228DA6721956EFFB00106DC7 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DA6711956EFFB00106DC7 /* UIViewController+Extension.m */; };
+		228DA6751956F31800106DC7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DA6741956F31800106DC7 /* MenuViewController.m */; };
+		228DA6781956F7D600106DC7 /* AbstractBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DA6771956F7D600106DC7 /* AbstractBaseViewController.m */; };
+		22957FAC187C86350000B6A5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22957FAB187C86350000B6A5 /* Settings.bundle */; };
+		2297B4F0197A8CAE00E6C07E /* NSData+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2297B4ED197A8CAE00E6C07E /* NSData+Crypto.m */; };
+		2297B4F3197A9EA600E6C07E /* PDFTableCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2297B4F2197A9EA600E6C07E /* PDFTableCreator.m */; };
+		2297B4F5197AC10D00E6C07E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2297B4F4197AC10D00E6C07E /* MessageUI.framework */; };
+		229D155719322F5800D30A80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229D155519322F5800D30A80 /* InfoPlist.strings */; };
+		229D155B19322F8C00D30A80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229D155919322F8C00D30A80 /* InfoPlist.strings */; };
+		229D155E1932311500D30A80 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229D155C1932311500D30A80 /* Localizable.strings */; };
+		229D15611932312000D30A80 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229D155F1932312000D30A80 /* Localizable.strings */; };
+		229D15641932473300D30A80 /* AbstractTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229D15631932473300D30A80 /* AbstractTabBarViewController.m */; };
+		229D156719326BDA00D30A80 /* Codes.m in Sources */ = {isa = PBXBuildFile; fileRef = 229D156619326BDA00D30A80 /* Codes.m */; };
+		229E98B81A4EFC23009B8F93 /* PersonTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E98B71A4EFC23009B8F93 /* PersonTabBarViewController.m */; };
+		229E98BB1A4EFC3A009B8F93 /* PersonGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E98BA1A4EFC3A009B8F93 /* PersonGeneralViewController.m */; };
+		229E98BE1A4F01BB009B8F93 /* SettingsConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E98BD1A4F01BB009B8F93 /* SettingsConfigurationViewController.m */; };
+		229E98C11A4F1581009B8F93 /* TransientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E98C01A4F1581009B8F93 /* TransientConfiguration.m */; };
+		22A386E01A5E65250074E8E6 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A386DF1A5E65250074E8E6 /* Common.m */; };
+		22A4BE6E1A3C5FC4005B63BE /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A4BE6D1A3C5FC4005B63BE /* LocalAuthentication.framework */; };
+		22A4BE711A3C7E29005B63BE /* InlineRatingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A4BE701A3C7E29005B63BE /* InlineRatingTableViewCell.m */; };
+		22A4BE741A3C86B4005B63BE /* InlineColorPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A4BE731A3C86B4005B63BE /* InlineColorPickerTableViewCell.m */; };
+		22A8D1C5190D34D5005F3688 /* SchoolClassTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A8D1C4190D34D5005F3688 /* SchoolClassTableViewController.m */; };
+		22AB7F2419548F6A0057152E /* AbstractNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB7F2319548F6A0057152E /* AbstractNavigationController.m */; };
+		22B1A57C1938C1E100B2FF14 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B1A57B1938C1E100B2FF14 /* MainViewController.m */; };
+		22B524A61C608A3600FA9D40 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B524A51C608A3600FA9D40 /* libz.tbd */; };
+		22B524AA1C608A4B00FA9D40 /* libobjc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B524A91C608A4B00FA9D40 /* libobjc.tbd */; };
+		22B7885219163C4100C99EC3 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7885119163C4100C99EC3 /* UIBarButtonItem+Extension.m */; };
+		22B7885919164A5700C99EC3 /* SchoolYearTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7885819164A5700C99EC3 /* SchoolYearTabBarViewController.m */; };
+		22B7885C19164AAC00C99EC3 /* SchoolYearGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7885B19164AAC00C99EC3 /* SchoolYearGeneralViewController.m */; };
+		22B7885F1916616B00C99EC3 /* UITabBarItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7885E1916616B00C99EC3 /* UITabBarItem+Extension.m */; };
+		22B78862191676E600C99EC3 /* SchoolYearTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B78861191676E600C99EC3 /* SchoolYearTimeTableViewController.m */; };
+		22B788651916770B00C99EC3 /* SchoolYearVacationPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B788641916770B00C99EC3 /* SchoolYearVacationPlanViewController.m */; };
+		22BA26CF18FAC31500CD246B /* SchoolYearTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BA26CE18FAC31500CD246B /* SchoolYearTableViewController.m */; };
+		22C1490919EB02950067411B /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1490819EB02950067411B /* NSString+Extension.m */; };
+		22C2E4681A9FB48D00DC6A2C /* student.xml in Resources */ = {isa = PBXBuildFile; fileRef = 22C2E4671A9FB48D00DC6A2C /* student.xml */; };
+		22D0631118E8A0290047ED99 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D0631018E8A0290047ED99 /* UIImage+Extension.m */; };
+		22D3BCCA193BCF9900BA2F6C /* SchoolTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D3BCC9193BCF9900BA2F6C /* SchoolTime.m */; };
+		22D500751B2D9C72007CA9D0 /* SetupWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D500741B2D9C72007CA9D0 /* SetupWelcomeViewController.m */; };
+		22D500781B2DABD9007CA9D0 /* SetupTeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D500771B2DABD9007CA9D0 /* SetupTeacherViewController.m */; };
+		22D5007B1B2DC385007CA9D0 /* SetupSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D5007A1B2DC385007CA9D0 /* SetupSchoolViewController.m */; };
+		22D5007E1B2DC7E3007CA9D0 /* SetupBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D5007D1B2DC7E3007CA9D0 /* SetupBaseViewController.m */; };
+		22E6237F1A6BFEEF00F83B94 /* AbstractBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E6237E1A6BFEEF00F83B94 /* AbstractBaseTableViewController.m */; };
+		22E9F0191A5962C2009FD4E9 /* 2014.json in Resources */ = {isa = PBXBuildFile; fileRef = 22E9F0151A5962C2009FD4E9 /* 2014.json */; };
+		22E9F01A1A5962C2009FD4E9 /* 2015.json in Resources */ = {isa = PBXBuildFile; fileRef = 22E9F0161A5962C2009FD4E9 /* 2015.json */; };
+		22E9F01B1A5962C2009FD4E9 /* 2016.json in Resources */ = {isa = PBXBuildFile; fileRef = 22E9F0171A5962C2009FD4E9 /* 2016.json */; };
+		22E9F01C1A5962C2009FD4E9 /* 2017.json in Resources */ = {isa = PBXBuildFile; fileRef = 22E9F0181A5962C2009FD4E9 /* 2017.json */; };
+		22F2817819D85EB400207B1E /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2815919D85EB400207B1E /* Annotation.m */; };
+		22F2817A19D85EB400207B1E /* AnnotationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2815D19D85EB400207B1E /* AnnotationHandler.m */; };
+		22F2817B19D85EB400207B1E /* AnnotationReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2815F19D85EB400207B1E /* AnnotationReminderViewController.m */; };
+		22F2817C19D85EB400207B1E /* AnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2816119D85EB400207B1E /* AnnotationViewController.m */; };
+		22F2817D19D85EB400207B1E /* ColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2816319D85EB400207B1E /* ColorPicker.m */; };
+		22F2817E19D85EB400207B1E /* ImageAnnotationSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2816519D85EB400207B1E /* ImageAnnotationSettingsViewController.m */; };
+		22F2817F19D85EB400207B1E /* ImageAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2816719D85EB400207B1E /* ImageAnnotationViewController.m */; };
+		22F2818019D85EB400207B1E /* PencilStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2816919D85EB400207B1E /* PencilStyle.m */; };
+		22F2818119D85EB400207B1E /* PencilStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2816B19D85EB400207B1E /* PencilStyleView.m */; };
+		22F2818219D85EB400207B1E /* PhotoAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2816D19D85EB400207B1E /* PhotoAnnotationViewController.m */; };
+		22F2818319D85EB400207B1E /* TextAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2816F19D85EB400207B1E /* TextAnnotationViewController.m */; };
+		22F2818519D85EB400207B1E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2817319D85EB400207B1E /* UIImage+ImageEffects.m */; };
+		22F2818719D85EB400207B1E /* VideoAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2817719D85EB400207B1E /* VideoAnnotationViewController.m */; };
+		22F2818D19D8A69100207B1E /* JSONValueTransformer+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2818C19D8A69100207B1E /* JSONValueTransformer+UIColor.m */; };
+		22F77CA71916DDDA005AE2A6 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F77CA61916DDDA005AE2A6 /* UIButton+Extension.m */; };
+		22F77CAA1916DDFD005AE2A6 /* PersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F77CA91916DDFD005AE2A6 /* PersonTableViewController.m */; };
+		22F77CAD1916DE0E005AE2A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F77CAC1916DE0E005AE2A6 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22451A78186F2E3E0035E34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22451A44186F2E3E0035E34F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22451A4B186F2E3E0035E34F;
+			remoteInfo = TeacherPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220000881912583100BD5712 /* StudentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentTableViewController.h; path = Classes/StudentTableViewController.h; sourceTree = "<group>"; };
+		220000891912583100BD5712 /* StudentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentTableViewController.m; path = Classes/StudentTableViewController.m; sourceTree = "<group>"; };
+		2202AE541C856A350010A9C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2202AE561C856A3A0010A9C6 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		220313A519278167000552BF /* SchoolYearAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolYearAnnotationViewController.h; path = Classes/SchoolYearAnnotationViewController.h; sourceTree = "<group>"; };
+		220313A619278167000552BF /* SchoolYearAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolYearAnnotationViewController.m; path = Classes/SchoolYearAnnotationViewController.m; sourceTree = "<group>"; };
+		220313A819278194000552BF /* SettingsTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsTabBarViewController.h; path = Classes/SettingsTabBarViewController.h; sourceTree = "<group>"; };
+		220313A919278194000552BF /* SettingsTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsTabBarViewController.m; path = Classes/SettingsTabBarViewController.m; sourceTree = "<group>"; };
+		220313AB1927821D000552BF /* SettingsGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsGeneralViewController.h; path = Classes/SettingsGeneralViewController.h; sourceTree = "<group>"; };
+		220313AC1927821D000552BF /* SettingsGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = SettingsGeneralViewController.m; path = Classes/SettingsGeneralViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		220313AE192783CC000552BF /* SchoolClassTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassTabBarViewController.h; path = Classes/SchoolClassTabBarViewController.h; sourceTree = "<group>"; };
+		220313AF192783CC000552BF /* SchoolClassTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassTabBarViewController.m; path = Classes/SchoolClassTabBarViewController.m; sourceTree = "<group>"; };
+		220313B1192783DA000552BF /* SchoolClassGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassGeneralViewController.h; path = Classes/SchoolClassGeneralViewController.h; sourceTree = "<group>"; };
+		220313B2192783DA000552BF /* SchoolClassGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassGeneralViewController.m; path = Classes/SchoolClassGeneralViewController.m; sourceTree = "<group>"; };
+		220313B41927841F000552BF /* SchoolClassSeatingPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassSeatingPlanViewController.h; path = Classes/SchoolClassSeatingPlanViewController.h; sourceTree = "<group>"; };
+		220313B51927841F000552BF /* SchoolClassSeatingPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassSeatingPlanViewController.m; path = Classes/SchoolClassSeatingPlanViewController.m; sourceTree = "<group>"; };
+		220313B71927843C000552BF /* SchoolClassAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassAnnotationViewController.h; path = Classes/SchoolClassAnnotationViewController.h; sourceTree = "<group>"; };
+		220313B81927843C000552BF /* SchoolClassAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassAnnotationViewController.m; path = Classes/SchoolClassAnnotationViewController.m; sourceTree = "<group>"; };
+		220313BA19278450000552BF /* SchoolClassExamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassExamViewController.h; path = Classes/SchoolClassExamViewController.h; sourceTree = "<group>"; };
+		220313BB19278450000552BF /* SchoolClassExamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassExamViewController.m; path = Classes/SchoolClassExamViewController.m; sourceTree = "<group>"; };
+		220313BD19278691000552BF /* StudentTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentTabBarViewController.h; path = Classes/StudentTabBarViewController.h; sourceTree = "<group>"; };
+		220313BE19278691000552BF /* StudentTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentTabBarViewController.m; path = Classes/StudentTabBarViewController.m; sourceTree = "<group>"; };
+		220313C0192786C3000552BF /* StudentGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentGeneralViewController.h; path = Classes/StudentGeneralViewController.h; sourceTree = "<group>"; };
+		220313C1192786C3000552BF /* StudentGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentGeneralViewController.m; path = Classes/StudentGeneralViewController.m; sourceTree = "<group>"; };
+		220313C3192786FD000552BF /* StudentTeachingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentTeachingViewController.h; path = Classes/StudentTeachingViewController.h; sourceTree = "<group>"; };
+		220313C4192786FD000552BF /* StudentTeachingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentTeachingViewController.m; path = Classes/StudentTeachingViewController.m; sourceTree = "<group>"; };
+		220313C61927871F000552BF /* StudentGradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentGradeViewController.h; path = Classes/StudentGradeViewController.h; sourceTree = "<group>"; };
+		220313C71927871F000552BF /* StudentGradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentGradeViewController.m; path = Classes/StudentGradeViewController.m; sourceTree = "<group>"; };
+		220313C91927876F000552BF /* PersonAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonAnnotationViewController.h; path = Classes/PersonAnnotationViewController.h; sourceTree = "<group>"; };
+		220313CA1927876F000552BF /* PersonAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonAnnotationViewController.m; path = Classes/PersonAnnotationViewController.m; sourceTree = "<group>"; };
+		220313CC19278B1D000552BF /* AbstractContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractContentTableViewController.h; path = Classes/AbstractContentTableViewController.h; sourceTree = "<group>"; };
+		220313CD19278B1D000552BF /* AbstractContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractContentTableViewController.m; path = Classes/AbstractContentTableViewController.m; sourceTree = "<group>"; };
+		220313CF19279418000552BF /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		220313D019279418000552BF /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		220313D2192794D7000552BF /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		220313D3192794D7000552BF /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		220313D51927955E000552BF /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		220313D61927955E000552BF /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		220313D819279AA5000552BF /* TransientCustomData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransientCustomData.h; sourceTree = "<group>"; };
+		220313D919279AA5000552BF /* TransientCustomData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransientCustomData.m; sourceTree = "<group>"; };
+		220C17A91943512800D75829 /* AbstractContentDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractContentDetailTableViewController.h; path = Classes/AbstractContentDetailTableViewController.h; sourceTree = "<group>"; };
+		220C17AA1943512800D75829 /* AbstractContentDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractContentDetailTableViewController.m; path = Classes/AbstractContentDetailTableViewController.m; sourceTree = "<group>"; };
+		220DEEEB1AAE3469007D6B55 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLReader.h; path = Classes/XMLReader.h; sourceTree = "<group>"; };
+		220DEEEC1AAE3469007D6B55 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLReader.m; path = Classes/XMLReader.m; sourceTree = "<group>"; };
+		22115E921A7031F700ABBA5F /* SchoolClassExportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassExportTableViewController.h; path = Classes/SchoolClassExportTableViewController.h; sourceTree = "<group>"; };
+		22115E931A7031F700ABBA5F /* SchoolClassExportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassExportTableViewController.m; path = Classes/SchoolClassExportTableViewController.m; sourceTree = "<group>"; };
+		22124F652076B2E70091ECA5 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		2219BB651953144D005A45FA /* JSONValueTransformer+NSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONValueTransformer+NSData.h"; path = "Classes/JSONValueTransformer+NSData.h"; sourceTree = "<group>"; };
+		2219BB661953144D005A45FA /* JSONValueTransformer+NSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSONValueTransformer+NSData.m"; path = "Classes/JSONValueTransformer+NSData.m"; sourceTree = "<group>"; };
+		221BD0671AB16E6000C91F82 /* InlineSliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineSliderTableViewCell.h; path = Classes/InlineSliderTableViewCell.h; sourceTree = "<group>"; };
+		221BD0681AB16E6000C91F82 /* InlineSliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineSliderTableViewCell.m; path = Classes/InlineSliderTableViewCell.m; sourceTree = "<group>"; };
+		221BD06A1AB1766900C91F82 /* InlineColorPreviewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineColorPreviewTableViewCell.h; path = Classes/InlineColorPreviewTableViewCell.h; sourceTree = "<group>"; };
+		221BD06B1AB1766900C91F82 /* InlineColorPreviewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineColorPreviewTableViewCell.m; path = Classes/InlineColorPreviewTableViewCell.m; sourceTree = "<group>"; };
+		2221D7C91A50399E0004ECF4 /* InlineMultilineEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineMultilineEditTableViewCell.h; path = Classes/InlineMultilineEditTableViewCell.h; sourceTree = "<group>"; };
+		2221D7CA1A50399E0004ECF4 /* InlineMultilineEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineMultilineEditTableViewCell.m; path = Classes/InlineMultilineEditTableViewCell.m; sourceTree = "<group>"; };
+		2221D92E19E1CD5E0077AC5A /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+Extension.h"; path = "Classes/UILabel+Extension.h"; sourceTree = "<group>"; };
+		2221D92F19E1CD5E0077AC5A /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Extension.m"; path = "Classes/UILabel+Extension.m"; sourceTree = "<group>"; };
+		222296581B8120D9001B5D60 /* DictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryViewController.h; path = Classes/DictionaryViewController.h; sourceTree = "<group>"; };
+		222296591B8120D9001B5D60 /* DictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryViewController.m; path = Classes/DictionaryViewController.m; sourceTree = "<group>"; };
+		2222965B1B813632001B5D60 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		2222965C1B813632001B5D60 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		222639A11A4F2120006B8F55 /* PersonListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonListTableViewController.h; path = Classes/PersonListTableViewController.h; sourceTree = "<group>"; };
+		222639A21A4F2120006B8F55 /* PersonListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonListTableViewController.m; path = Classes/PersonListTableViewController.m; sourceTree = "<group>"; };
+		222639A41A4F23FF006B8F55 /* SettingsPersonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsPersonsViewController.h; path = Classes/SettingsPersonsViewController.h; sourceTree = "<group>"; };
+		222639A51A4F23FF006B8F55 /* SettingsPersonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsPersonsViewController.m; path = Classes/SettingsPersonsViewController.m; sourceTree = "<group>"; };
+		222B0CB01928F619002CA400 /* PropertyBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PropertyBinding.h; path = Classes/PropertyBinding.h; sourceTree = "<group>"; };
+		222B0CB11928F619002CA400 /* PropertyBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PropertyBinding.m; path = Classes/PropertyBinding.m; sourceTree = "<group>"; };
+		222DEE9B1A6BC83200C5DC11 /* JSONChildEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONChildEntity.h; path = Classes/Entity/JSONChildEntity.h; sourceTree = "<group>"; };
+		222DEE9C1A6BC83200C5DC11 /* JSONChildEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONChildEntity.m; path = Classes/Entity/JSONChildEntity.m; sourceTree = "<group>"; };
+		222DEE9E1A6BC88600C5DC11 /* JSONTransientEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONTransientEntity.h; path = Classes/Entity/JSONTransientEntity.h; sourceTree = "<group>"; };
+		222DEE9F1A6BC88600C5DC11 /* JSONTransientEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONTransientEntity.m; path = Classes/Entity/JSONTransientEntity.m; sourceTree = "<group>"; };
+		222DEEA11A6BCF8A00C5DC11 /* CodesBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodesBase.h; path = Classes/Entity/CodesBase.h; sourceTree = "<group>"; };
+		222DEEA21A6BCF8A00C5DC11 /* CodesBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodesBase.m; path = Classes/Entity/CodesBase.m; sourceTree = "<group>"; };
+		222DEEA41A6BD04400C5DC11 /* ModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelBase.h; path = Classes/Entity/ModelBase.h; sourceTree = "<group>"; };
+		222DEEA51A6BD04400C5DC11 /* ModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelBase.m; path = Classes/Entity/ModelBase.m; sourceTree = "<group>"; };
+		22317007198E7FD500353BAE /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Configuration.h; path = Classes/Configuration.h; sourceTree = "<group>"; };
+		22317008198E7FD500353BAE /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Configuration.m; path = Classes/Configuration.m; sourceTree = "<group>"; };
+		2237F2CE1A52B8A000495FCA /* Binding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Binding.h; path = Classes/Entity/Binding.h; sourceTree = "<group>"; };
+		2237F2CF1A52B8A000495FCA /* Binding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Binding.m; path = Classes/Entity/Binding.m; sourceTree = "<group>"; };
+		2237F2D11A52F86C00495FCA /* SettingsAddExportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsAddExportViewController.h; path = Classes/SettingsAddExportViewController.h; sourceTree = "<group>"; };
+		2237F2D21A52F86C00495FCA /* SettingsAddExportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsAddExportViewController.m; path = Classes/SettingsAddExportViewController.m; sourceTree = "<group>"; };
+		2237F2D51A52FF9000495FCA /* TransientNewExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransientNewExport.h; sourceTree = "<group>"; };
+		2237F2D61A52FF9000495FCA /* TransientNewExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransientNewExport.m; sourceTree = "<group>"; };
+		2238F648195AA02300D66EBC /* TileLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileLayoutView.h; path = Classes/TileLayoutView.h; sourceTree = "<group>"; };
+		2238F649195AA02300D66EBC /* TileLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileLayoutView.m; path = Classes/TileLayoutView.m; sourceTree = "<group>"; };
+		2238F64A195AA02300D66EBC /* TileLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileLayoutViewController.h; path = Classes/TileLayoutViewController.h; sourceTree = "<group>"; };
+		2238F64B195AA02300D66EBC /* TileLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileLayoutViewController.m; path = Classes/TileLayoutViewController.m; sourceTree = "<group>"; };
+		2238F64C195AA02300D66EBC /* TileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileViewController.h; path = Classes/TileViewController.h; sourceTree = "<group>"; };
+		2238F64D195AA02300D66EBC /* TileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileViewController.m; path = Classes/TileViewController.m; sourceTree = "<group>"; };
+		2241D30119E1418600A433BA /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attachment.h; sourceTree = "<group>"; };
+		2241D30219E1418600A433BA /* Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attachment.m; sourceTree = "<group>"; };
+		2241D30419E16FA400A433BA /* DefaultBindable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultBindable.h; path = Classes/Entity/DefaultBindable.h; sourceTree = "<group>"; };
+		2241D30519E16FA400A433BA /* DefaultBindable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefaultBindable.m; path = Classes/Entity/DefaultBindable.m; sourceTree = "<group>"; };
+		22440CF319547B570077CF1F /* ShareUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareUtilities.h; path = Classes/ShareUtilities.h; sourceTree = "<group>"; };
+		22440CF419547B570077CF1F /* ShareUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareUtilities.m; path = Classes/ShareUtilities.m; sourceTree = "<group>"; };
+		22440CF6195480E90077CF1F /* ExportCalendarActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportCalendarActivity.h; path = Classes/ExportCalendarActivity.h; sourceTree = "<group>"; };
+		22440CF7195480E90077CF1F /* ExportCalendarActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExportCalendarActivity.m; path = Classes/ExportCalendarActivity.m; sourceTree = "<group>"; };
+		22440D00195486A90077CF1F /* PDFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFTableViewController.h; path = Classes/PDFTableViewController.h; sourceTree = "<group>"; };
+		22440D01195486A90077CF1F /* PDFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFTableViewController.m; path = Classes/PDFTableViewController.m; sourceTree = "<group>"; };
+		22451A4C186F2E3E0035E34F /* TeacherPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22451A4F186F2E3E0035E34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22451A51186F2E3E0035E34F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22451A53186F2E3E0035E34F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22451A57186F2E3E0035E34F /* TeacherPlanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeacherPlanner-Info.plist"; sourceTree = "<group>"; };
+		22451A5B186F2E3E0035E34F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22451A5D186F2E3E0035E34F /* TeacherPlanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeacherPlanner-Prefix.pch"; sourceTree = "<group>"; };
+		22451A6D186F2E3E0035E34F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22451A73186F2E3E0035E34F /* TeacherPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22484E3C191C1F2C0068FEE0 /* AbstractMenuBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractMenuBaseTableViewController.h; path = Classes/AbstractMenuBaseTableViewController.h; sourceTree = "<group>"; };
+		22484E3D191C1F2C0068FEE0 /* AbstractMenuBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractMenuBaseTableViewController.m; path = Classes/AbstractMenuBaseTableViewController.m; sourceTree = "<group>"; };
+		224C416B194C8823009FA33D /* InlineTimeFromToTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineTimeFromToTableViewCell.m; path = Classes/InlineTimeFromToTableViewCell.m; sourceTree = "<group>"; };
+		224C416C194C8823009FA33D /* InlineTimeFromToTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineTimeFromToTableViewCell.h; path = Classes/InlineTimeFromToTableViewCell.h; sourceTree = "<group>"; };
+		224C416D194C8823009FA33D /* InlineSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineSwitchTableViewCell.m; path = Classes/InlineSwitchTableViewCell.m; sourceTree = "<group>"; };
+		224C416E194C8823009FA33D /* InlineSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineSwitchTableViewCell.h; path = Classes/InlineSwitchTableViewCell.h; sourceTree = "<group>"; };
+		224C416F194C8823009FA33D /* InlineCountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineCountTableViewCell.m; path = Classes/InlineCountTableViewCell.m; sourceTree = "<group>"; };
+		224C4170194C8823009FA33D /* InlineCountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineCountTableViewCell.h; path = Classes/InlineCountTableViewCell.h; sourceTree = "<group>"; };
+		224C4171194C8823009FA33D /* InlinePhotoPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlinePhotoPickerTableViewCell.m; path = Classes/InlinePhotoPickerTableViewCell.m; sourceTree = "<group>"; };
+		224C4172194C8823009FA33D /* InlinePhotoPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlinePhotoPickerTableViewCell.h; path = Classes/InlinePhotoPickerTableViewCell.h; sourceTree = "<group>"; };
+		224C4173194C8823009FA33D /* InlineEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineEditTableViewCell.m; path = Classes/InlineEditTableViewCell.m; sourceTree = "<group>"; };
+		224C4174194C8823009FA33D /* InlineEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineEditTableViewCell.h; path = Classes/InlineEditTableViewCell.h; sourceTree = "<group>"; };
+		224C4175194C8823009FA33D /* InlineDatePickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineDatePickerTableViewCell.m; path = Classes/InlineDatePickerTableViewCell.m; sourceTree = "<group>"; };
+		224C4176194C8823009FA33D /* InlineDatePickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineDatePickerTableViewCell.h; path = Classes/InlineDatePickerTableViewCell.h; sourceTree = "<group>"; };
+		224C4177194C8823009FA33D /* InlineCodeSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineCodeSelectionTableViewController.m; path = Classes/InlineCodeSelectionTableViewController.m; sourceTree = "<group>"; };
+		224C4178194C8823009FA33D /* InlineCodeSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineCodeSelectionTableViewController.h; path = Classes/InlineCodeSelectionTableViewController.h; sourceTree = "<group>"; };
+		224C4179194C8823009FA33D /* InlineCodeSelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineCodeSelectionTableViewCell.m; path = Classes/InlineCodeSelectionTableViewCell.m; sourceTree = "<group>"; };
+		224C417A194C8823009FA33D /* InlineCodeSelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineCodeSelectionTableViewCell.h; path = Classes/InlineCodeSelectionTableViewCell.h; sourceTree = "<group>"; };
+		224C417B194C8823009FA33D /* InlineCodePickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineCodePickerTableViewCell.m; path = Classes/InlineCodePickerTableViewCell.m; sourceTree = "<group>"; };
+		224C417C194C8823009FA33D /* InlineCodePickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineCodePickerTableViewCell.h; path = Classes/InlineCodePickerTableViewCell.h; sourceTree = "<group>"; };
+		22513621195F630700237CB0 /* Bindable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bindable.h; path = TeacherPlanner/Classes/Bindable.h; sourceTree = SOURCE_ROOT; };
+		22513622195F630700237CB0 /* Bindable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bindable.m; path = TeacherPlanner/Classes/Bindable.m; sourceTree = SOURCE_ROOT; };
+		2252135F1A7A12F500373F65 /* AbstractMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractMenuTableViewController.h; path = Classes/AbstractMenuTableViewController.h; sourceTree = "<group>"; };
+		225213601A7A12F500373F65 /* AbstractMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractMenuTableViewController.m; path = Classes/AbstractMenuTableViewController.m; sourceTree = "<group>"; };
+		225213621A7A17FD00373F65 /* SchoolClassTeachingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassTeachingViewController.h; path = Classes/SchoolClassTeachingViewController.h; sourceTree = "<group>"; };
+		225213631A7A17FD00373F65 /* SchoolClassTeachingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassTeachingViewController.m; path = Classes/SchoolClassTeachingViewController.m; sourceTree = "<group>"; };
+		2253BDE01AF3B5B600A06155 /* TransientReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransientReminder.h; sourceTree = "<group>"; };
+		2253BDE11AF3B5B600A06155 /* TransientReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransientReminder.m; sourceTree = "<group>"; };
+		2254E48F1AB5A79500E7B0EB /* SchoolClassLessonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassLessonsViewController.h; path = Classes/SchoolClassLessonsViewController.h; sourceTree = "<group>"; };
+		2254E4901AB5A79500E7B0EB /* SchoolClassLessonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassLessonsViewController.m; path = Classes/SchoolClassLessonsViewController.m; sourceTree = "<group>"; };
+		2255321B1A913E9E0057B0D1 /* XLSFileCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLSFileCreator.h; path = Classes/XLSFileCreator.h; sourceTree = "<group>"; };
+		2255321C1A913E9E0057B0D1 /* XLSFileCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLSFileCreator.m; path = Classes/XLSFileCreator.m; sourceTree = "<group>"; };
+		2257297919ECEE7300F09C7E /* JSONRootEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONRootEntity.h; path = Classes/Entity/JSONRootEntity.h; sourceTree = "<group>"; };
+		2257297A19ECEE7300F09C7E /* JSONRootEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONRootEntity.m; path = Classes/Entity/JSONRootEntity.m; sourceTree = "<group>"; };
+		22578D6618829DFA000C5B6F /* Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crypto.h; sourceTree = "<group>"; };
+		22578D6718829DFA000C5B6F /* Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crypto.m; sourceTree = "<group>"; };
+		22578D6818829DFA000C5B6F /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		22578D6918829DFA000C5B6F /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		22578D6A18829DFA000C5B6F /* SecureStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureStore.h; sourceTree = "<group>"; };
+		22578D6B18829DFA000C5B6F /* SecureStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureStore.m; sourceTree = "<group>"; };
+		22578D6F18829DFA000C5B6F /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		22578D7018829DFA000C5B6F /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
+		22578D7118829DFA000C5B6F /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		22578D7218829DFA000C5B6F /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		22578D7318829DFA000C5B6F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		22578D7418829DFA000C5B6F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		22578D7518829DFA000C5B6F /* PersonRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonRef.h; sourceTree = "<group>"; };
+		22578D7618829DFA000C5B6F /* PersonRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonRef.m; sourceTree = "<group>"; };
+		22578D7718829DFA000C5B6F /* SchoolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolClass.h; sourceTree = "<group>"; };
+		22578D7818829DFA000C5B6F /* SchoolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolClass.m; sourceTree = "<group>"; };
+		22578D7918829DFA000C5B6F /* SchoolYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolYear.h; sourceTree = "<group>"; };
+		22578D7A18829DFA000C5B6F /* SchoolYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolYear.m; sourceTree = "<group>"; };
+		22578D7B18829DFA000C5B6F /* SchoolYearRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolYearRef.h; sourceTree = "<group>"; };
+		22578D7C18829DFA000C5B6F /* SchoolYearRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolYearRef.m; sourceTree = "<group>"; };
+		22578D7D18829DFA000C5B6F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		22578D7E18829DFA000C5B6F /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		22578D8018829DFA000C5B6F /* JSONEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONEntity.h; path = Classes/JSONModel/JSONEntity.h; sourceTree = "<group>"; };
+		22578D8118829DFA000C5B6F /* JSONEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONEntity.m; path = Classes/JSONModel/JSONEntity.m; sourceTree = "<group>"; };
+		22578D8218829DFA000C5B6F /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		22578D8318829DFA000C5B6F /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		22578D8418829DFA000C5B6F /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		22578D8518829DFA000C5B6F /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		22578D8618829DFA000C5B6F /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		22578D8718829DFA000C5B6F /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		22578D8818829DFA000C5B6F /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		22578D8918829DFA000C5B6F /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		22578D8A18829DFA000C5B6F /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		22578D8B18829DFA000C5B6F /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		22578D8C18829DFA000C5B6F /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		22578D8D18829DFA000C5B6F /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		22578D8E18829DFA000C5B6F /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		22578D8F18829DFA000C5B6F /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		22578D9018829DFA000C5B6F /* LockScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LockScreenViewController.h; path = Classes/LockScreenViewController.h; sourceTree = "<group>"; };
+		22578D9118829DFA000C5B6F /* LockScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LockScreenViewController.m; path = Classes/LockScreenViewController.m; sourceTree = "<group>"; };
+		22578D9218829DFA000C5B6F /* LockScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LockScreenViewController.xib; path = Classes/LockScreenViewController.xib; sourceTree = "<group>"; };
+		22578D9318829DFA000C5B6F /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = Classes/StartViewController.h; sourceTree = "<group>"; };
+		22578D9418829DFA000C5B6F /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = Classes/StartViewController.m; sourceTree = "<group>"; };
+		22578D9818829DFB000C5B6F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
+		22578D9918829DFB000C5B6F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; };
+		22578D9A18829DFB000C5B6F /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = Classes/Utilities.h; sourceTree = "<group>"; };
+		22578D9B18829DFB000C5B6F /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = Classes/Utilities.m; sourceTree = "<group>"; };
+		22578D9E18829DFB000C5B6F /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		22578D9F18829DFB000C5B6F /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		22578DA018829DFB000C5B6F /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		22578DA118829DFB000C5B6F /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		22578DA218829DFB000C5B6F /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		22578DA318829DFB000C5B6F /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		22578DA418829DFB000C5B6F /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		22578DA518829DFB000C5B6F /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		22578DA618829DFB000C5B6F /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		22578DA718829DFB000C5B6F /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		22578DA818829DFB000C5B6F /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		22578DA918829DFB000C5B6F /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		22578DAA18829DFB000C5B6F /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		22578DCF18829EC5000C5B6F /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "Classes/UIColor+Extension.h"; sourceTree = "<group>"; };
+		22578DD018829EC5000C5B6F /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "Classes/UIColor+Extension.m"; sourceTree = "<group>"; };
+		2257C5A71A29F406000DCC68 /* ApplicationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationTableViewController.h; path = Classes/ApplicationTableViewController.h; sourceTree = "<group>"; };
+		2257C5A81A29F406000DCC68 /* ApplicationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationTableViewController.m; path = Classes/ApplicationTableViewController.m; sourceTree = "<group>"; };
+		225EBD601A47093600D4B2F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		225EBD611A47093600D4B2F0 /* TeacherPlannerTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TeacherPlannerTests-Info.plist"; sourceTree = "<group>"; };
+		225EBD621A47093600D4B2F0 /* TeacherPlannerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherPlannerTests.m; sourceTree = "<group>"; };
+		2260FD291A46CFA0006C76CD /* SettingsExportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsExportViewController.h; path = Classes/SettingsExportViewController.h; sourceTree = "<group>"; };
+		2260FD2A1A46CFA0006C76CD /* SettingsExportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsExportViewController.m; path = Classes/SettingsExportViewController.m; sourceTree = "<group>"; };
+		2260FD2F1A46D342006C76CD /* AnnotationContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationContainer.h; sourceTree = "<group>"; };
+		2260FD301A46D342006C76CD /* AnnotationContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationContainer.m; sourceTree = "<group>"; };
+		226433E31A51530900AC7D3A /* PersonListDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonListDetailTableViewController.h; path = Classes/PersonListDetailTableViewController.h; sourceTree = "<group>"; };
+		226433E41A51530900AC7D3A /* PersonListDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonListDetailTableViewController.m; path = Classes/PersonListDetailTableViewController.m; sourceTree = "<group>"; };
+		226452B21A472DF600FD48EA /* ImportApplicationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImportApplicationTableViewController.h; path = Classes/ImportApplicationTableViewController.h; sourceTree = "<group>"; };
+		226452B31A472DF600FD48EA /* ImportApplicationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImportApplicationTableViewController.m; path = Classes/ImportApplicationTableViewController.m; sourceTree = "<group>"; };
+		2268E9861A9141D800AC62E5 /* exam.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = exam.xml; path = Templates/exam.xml; sourceTree = "<group>"; };
+		226AB00F19151F9B00E4B6F9 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		226AB01019151F9B00E4B6F9 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		226B37F71B1355DD00174E49 /* TransientAnnotationContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransientAnnotationContainer.h; sourceTree = "<group>"; };
+		226B37F81B1355DD00174E49 /* TransientAnnotationContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransientAnnotationContainer.m; sourceTree = "<group>"; };
+		226D1DC41A434432004E1ACE /* ContextBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContextBinding.h; path = Classes/Entity/ContextBinding.h; sourceTree = "<group>"; };
+		226D1DC51A434432004E1ACE /* ContextBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContextBinding.m; path = Classes/Entity/ContextBinding.m; sourceTree = "<group>"; };
+		226D99FD19328809003041B8 /* AbstractTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractTableViewCell.h; path = Classes/AbstractTableViewCell.h; sourceTree = "<group>"; };
+		226D99FE19328809003041B8 /* AbstractTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractTableViewCell.m; path = Classes/AbstractTableViewCell.m; sourceTree = "<group>"; };
+		226E43191AF534F40003AD42 /* JSONValueTransformer+UILocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONValueTransformer+UILocalNotification.h"; sourceTree = "<group>"; };
+		226E431A1AF534F40003AD42 /* JSONValueTransformer+UILocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONValueTransformer+UILocalNotification.m"; sourceTree = "<group>"; };
+		226E431D1AF536C70003AD42 /* JSONValueTransformer+NSDateComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONValueTransformer+NSDateComponents.h"; path = "Classes/JSONValueTransformer+NSDateComponents.h"; sourceTree = "<group>"; };
+		226E431E1AF536C70003AD42 /* JSONValueTransformer+NSDateComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSONValueTransformer+NSDateComponents.m"; path = "Classes/JSONValueTransformer+NSDateComponents.m"; sourceTree = "<group>"; };
+		2271F7C81AC02C8100D8A058 /* NSCalendar+RSDFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+RSDFAdditions.h"; sourceTree = "<group>"; };
+		2271F7C91AC02C8100D8A058 /* NSCalendar+RSDFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+RSDFAdditions.m"; sourceTree = "<group>"; };
+		2271F7CA1AC02C8100D8A058 /* RSDayFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDayFlow.h; sourceTree = "<group>"; };
+		2271F7CB1AC02C8100D8A058 /* RSDFDatePickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerCollectionView.h; sourceTree = "<group>"; };
+		2271F7CC1AC02C8100D8A058 /* RSDFDatePickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerCollectionView.m; sourceTree = "<group>"; };
+		2271F7CD1AC02C8100D8A058 /* RSDFDatePickerCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerCollectionViewLayout.h; sourceTree = "<group>"; };
+		2271F7CE1AC02C8100D8A058 /* RSDFDatePickerCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerCollectionViewLayout.m; sourceTree = "<group>"; };
+		2271F7CF1AC02C8100D8A058 /* RSDFDatePickerDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerDayCell.h; sourceTree = "<group>"; };
+		2271F7D01AC02C8100D8A058 /* RSDFDatePickerDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerDayCell.m; sourceTree = "<group>"; };
+		2271F7D11AC02C8100D8A058 /* RSDFDatePickerDaysOfWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerDaysOfWeekView.h; sourceTree = "<group>"; };
+		2271F7D21AC02C8100D8A058 /* RSDFDatePickerDaysOfWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerDaysOfWeekView.m; sourceTree = "<group>"; };
+		2271F7D31AC02C8100D8A058 /* RSDFDatePickerMonthHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerMonthHeader.h; sourceTree = "<group>"; };
+		2271F7D41AC02C8100D8A058 /* RSDFDatePickerMonthHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerMonthHeader.m; sourceTree = "<group>"; };
+		2271F7D51AC02C8100D8A058 /* RSDFDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerView.h; sourceTree = "<group>"; };
+		2271F7D61AC02C8100D8A058 /* RSDFDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerView.m; sourceTree = "<group>"; };
+		2271F7DE1AC0463500D8A058 /* RSDFDatePickerDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerDetailView.h; sourceTree = "<group>"; };
+		2271F7DF1AC0463500D8A058 /* RSDFDatePickerDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerDetailView.m; sourceTree = "<group>"; };
+		2273C8C91A42AEA300FDF815 /* InlineEntitySelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineEntitySelectionTableViewCell.h; path = Classes/InlineEntitySelectionTableViewCell.h; sourceTree = "<group>"; };
+		2273C8CA1A42AEA300FDF815 /* InlineEntitySelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineEntitySelectionTableViewCell.m; path = Classes/InlineEntitySelectionTableViewCell.m; sourceTree = "<group>"; };
+		2273D7841AB4626A002593DE /* Lesson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson.h; sourceTree = "<group>"; };
+		2273D7851AB4626A002593DE /* Lesson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson.m; sourceTree = "<group>"; };
+		2273D7871AB477A4002593DE /* InlineDisplayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineDisplayTableViewCell.h; path = Classes/InlineDisplayTableViewCell.h; sourceTree = "<group>"; };
+		2273D7881AB477A4002593DE /* InlineDisplayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineDisplayTableViewCell.m; path = Classes/InlineDisplayTableViewCell.m; sourceTree = "<group>"; };
+		227D60CB1AAB650B00EE851B /* StudentAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentAnnotationViewController.h; path = Classes/StudentAnnotationViewController.h; sourceTree = "<group>"; };
+		227D60CC1AAB650B00EE851B /* StudentAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentAnnotationViewController.m; path = Classes/StudentAnnotationViewController.m; sourceTree = "<group>"; };
+		227F2503195CA413001A8079 /* TileViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileViewControllerDataSource.h; path = Classes/TileViewControllerDataSource.h; sourceTree = "<group>"; };
+		227F2504195CA413001A8079 /* TileViewControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileViewControllerDataSource.m; path = Classes/TileViewControllerDataSource.m; sourceTree = "<group>"; };
+		22833EBC18702B11002DFF1A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		228DA6701956EFFB00106DC7 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Extension.h"; path = "Classes/UIViewController+Extension.h"; sourceTree = "<group>"; };
+		228DA6711956EFFB00106DC7 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Extension.m"; path = "Classes/UIViewController+Extension.m"; sourceTree = "<group>"; };
+		228DA6731956F31800106DC7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Classes/MenuViewController.h; sourceTree = "<group>"; };
+		228DA6741956F31800106DC7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Classes/MenuViewController.m; sourceTree = "<group>"; };
+		228DA6761956F7D600106DC7 /* AbstractBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractBaseViewController.h; path = Classes/AbstractBaseViewController.h; sourceTree = "<group>"; };
+		228DA6771956F7D600106DC7 /* AbstractBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractBaseViewController.m; path = Classes/AbstractBaseViewController.m; sourceTree = "<group>"; };
+		22957FAB187C86350000B6A5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2297B4EC197A8CAE00E6C07E /* NSData+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Crypto.h"; sourceTree = "<group>"; };
+		2297B4ED197A8CAE00E6C07E /* NSData+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Crypto.m"; sourceTree = "<group>"; };
+		2297B4F1197A9EA600E6C07E /* PDFTableCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFTableCreator.h; path = Classes/PDFTableCreator.h; sourceTree = "<group>"; };
+		2297B4F2197A9EA600E6C07E /* PDFTableCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFTableCreator.m; path = Classes/PDFTableCreator.m; sourceTree = "<group>"; };
+		2297B4F4197AC10D00E6C07E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		229D155619322F5800D30A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		229D155A19322F8C00D30A80 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = InfoPlist.strings; sourceTree = "<group>"; };
+		229D155D1932311500D30A80 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
+		229D15601932312000D30A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		229D15621932473300D30A80 /* AbstractTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractTabBarViewController.h; path = Classes/AbstractTabBarViewController.h; sourceTree = "<group>"; };
+		229D15631932473300D30A80 /* AbstractTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractTabBarViewController.m; path = Classes/AbstractTabBarViewController.m; sourceTree = "<group>"; };
+		229D156519326BDA00D30A80 /* Codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Codes.h; sourceTree = "<group>"; };
+		229D156619326BDA00D30A80 /* Codes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Codes.m; sourceTree = "<group>"; };
+		229E98B61A4EFC23009B8F93 /* PersonTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonTabBarViewController.h; path = Classes/PersonTabBarViewController.h; sourceTree = "<group>"; };
+		229E98B71A4EFC23009B8F93 /* PersonTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonTabBarViewController.m; path = Classes/PersonTabBarViewController.m; sourceTree = "<group>"; };
+		229E98B91A4EFC3A009B8F93 /* PersonGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonGeneralViewController.h; path = Classes/PersonGeneralViewController.h; sourceTree = "<group>"; };
+		229E98BA1A4EFC3A009B8F93 /* PersonGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonGeneralViewController.m; path = Classes/PersonGeneralViewController.m; sourceTree = "<group>"; };
+		229E98BC1A4F01BB009B8F93 /* SettingsConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsConfigurationViewController.h; path = Classes/SettingsConfigurationViewController.h; sourceTree = "<group>"; };
+		229E98BD1A4F01BB009B8F93 /* SettingsConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsConfigurationViewController.m; path = Classes/SettingsConfigurationViewController.m; sourceTree = "<group>"; };
+		229E98BF1A4F1581009B8F93 /* TransientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransientConfiguration.h; sourceTree = "<group>"; };
+		229E98C01A4F1581009B8F93 /* TransientConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransientConfiguration.m; sourceTree = "<group>"; };
+		22A386DE1A5E65250074E8E6 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Classes/Common.h; sourceTree = "<group>"; };
+		22A386DF1A5E65250074E8E6 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Classes/Common.m; sourceTree = "<group>"; };
+		22A4BE6D1A3C5FC4005B63BE /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		22A4BE6F1A3C7E29005B63BE /* InlineRatingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineRatingTableViewCell.h; path = Classes/InlineRatingTableViewCell.h; sourceTree = "<group>"; };
+		22A4BE701A3C7E29005B63BE /* InlineRatingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineRatingTableViewCell.m; path = Classes/InlineRatingTableViewCell.m; sourceTree = "<group>"; };
+		22A4BE721A3C86B4005B63BE /* InlineColorPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineColorPickerTableViewCell.h; path = Classes/InlineColorPickerTableViewCell.h; sourceTree = "<group>"; };
+		22A4BE731A3C86B4005B63BE /* InlineColorPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineColorPickerTableViewCell.m; path = Classes/InlineColorPickerTableViewCell.m; sourceTree = "<group>"; };
+		22A8D1C3190D34D5005F3688 /* SchoolClassTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolClassTableViewController.h; path = Classes/SchoolClassTableViewController.h; sourceTree = "<group>"; };
+		22A8D1C4190D34D5005F3688 /* SchoolClassTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolClassTableViewController.m; path = Classes/SchoolClassTableViewController.m; sourceTree = "<group>"; };
+		22AB7F2219548F6A0057152E /* AbstractNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractNavigationController.h; path = Classes/AbstractNavigationController.h; sourceTree = "<group>"; };
+		22AB7F2319548F6A0057152E /* AbstractNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractNavigationController.m; path = Classes/AbstractNavigationController.m; sourceTree = "<group>"; };
+		22B1A57A1938C1E100B2FF14 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		22B1A57B1938C1E100B2FF14 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		22B524A51C608A3600FA9D40 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		22B524A91C608A4B00FA9D40 /* libobjc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.tbd; path = usr/lib/libobjc.tbd; sourceTree = SDKROOT; };
+		22B7885019163C4100C99EC3 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Extension.h"; path = "Classes/UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		22B7885119163C4100C99EC3 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Extension.m"; path = "Classes/UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		22B7885719164A5700C99EC3 /* SchoolYearTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolYearTabBarViewController.h; path = Classes/SchoolYearTabBarViewController.h; sourceTree = "<group>"; };
+		22B7885819164A5700C99EC3 /* SchoolYearTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolYearTabBarViewController.m; path = Classes/SchoolYearTabBarViewController.m; sourceTree = "<group>"; };
+		22B7885A19164AAC00C99EC3 /* SchoolYearGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolYearGeneralViewController.h; path = Classes/SchoolYearGeneralViewController.h; sourceTree = "<group>"; };
+		22B7885B19164AAC00C99EC3 /* SchoolYearGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolYearGeneralViewController.m; path = Classes/SchoolYearGeneralViewController.m; sourceTree = "<group>"; };
+		22B7885D1916616B00C99EC3 /* UITabBarItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+Extension.h"; path = "Classes/UITabBarItem+Extension.h"; sourceTree = "<group>"; };
+		22B7885E1916616B00C99EC3 /* UITabBarItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+Extension.m"; path = "Classes/UITabBarItem+Extension.m"; sourceTree = "<group>"; };
+		22B78860191676E600C99EC3 /* SchoolYearTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolYearTimeTableViewController.h; path = Classes/SchoolYearTimeTableViewController.h; sourceTree = "<group>"; };
+		22B78861191676E600C99EC3 /* SchoolYearTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolYearTimeTableViewController.m; path = Classes/SchoolYearTimeTableViewController.m; sourceTree = "<group>"; };
+		22B788631916770B00C99EC3 /* SchoolYearVacationPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolYearVacationPlanViewController.h; path = Classes/SchoolYearVacationPlanViewController.h; sourceTree = "<group>"; };
+		22B788641916770B00C99EC3 /* SchoolYearVacationPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolYearVacationPlanViewController.m; path = Classes/SchoolYearVacationPlanViewController.m; sourceTree = "<group>"; };
+		22BA26CD18FAC31500CD246B /* SchoolYearTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolYearTableViewController.h; path = Classes/SchoolYearTableViewController.h; sourceTree = "<group>"; };
+		22BA26CE18FAC31500CD246B /* SchoolYearTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolYearTableViewController.m; path = Classes/SchoolYearTableViewController.m; sourceTree = "<group>"; };
+		22C1490719EB02950067411B /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "Classes/NSString+Extension.h"; sourceTree = "<group>"; };
+		22C1490819EB02950067411B /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "Classes/NSString+Extension.m"; sourceTree = "<group>"; };
+		22C2E4671A9FB48D00DC6A2C /* student.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = student.xml; path = Templates/student.xml; sourceTree = "<group>"; };
+		22D0630F18E8A0290047ED99 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "Classes/UIImage+Extension.h"; sourceTree = "<group>"; };
+		22D0631018E8A0290047ED99 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "Classes/UIImage+Extension.m"; sourceTree = "<group>"; };
+		22D3BCC8193BCF9900BA2F6C /* SchoolTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolTime.h; sourceTree = "<group>"; };
+		22D3BCC9193BCF9900BA2F6C /* SchoolTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolTime.m; sourceTree = "<group>"; };
+		22D500731B2D9C72007CA9D0 /* SetupWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupWelcomeViewController.h; path = Classes/SetupWelcomeViewController.h; sourceTree = "<group>"; };
+		22D500741B2D9C72007CA9D0 /* SetupWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupWelcomeViewController.m; path = Classes/SetupWelcomeViewController.m; sourceTree = "<group>"; };
+		22D500761B2DABD9007CA9D0 /* SetupTeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupTeacherViewController.h; path = Classes/SetupTeacherViewController.h; sourceTree = "<group>"; };
+		22D500771B2DABD9007CA9D0 /* SetupTeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupTeacherViewController.m; path = Classes/SetupTeacherViewController.m; sourceTree = "<group>"; };
+		22D500791B2DC385007CA9D0 /* SetupSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupSchoolViewController.h; path = Classes/SetupSchoolViewController.h; sourceTree = "<group>"; };
+		22D5007A1B2DC385007CA9D0 /* SetupSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupSchoolViewController.m; path = Classes/SetupSchoolViewController.m; sourceTree = "<group>"; };
+		22D5007C1B2DC7E3007CA9D0 /* SetupBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupBaseViewController.h; path = Classes/SetupBaseViewController.h; sourceTree = "<group>"; };
+		22D5007D1B2DC7E3007CA9D0 /* SetupBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupBaseViewController.m; path = Classes/SetupBaseViewController.m; sourceTree = "<group>"; };
+		22E6237D1A6BFEEF00F83B94 /* AbstractBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractBaseTableViewController.h; path = Classes/AbstractBaseTableViewController.h; sourceTree = "<group>"; };
+		22E6237E1A6BFEEF00F83B94 /* AbstractBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractBaseTableViewController.m; path = Classes/AbstractBaseTableViewController.m; sourceTree = "<group>"; };
+		22E9F0151A5962C2009FD4E9 /* 2014.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2014.json; sourceTree = "<group>"; };
+		22E9F0161A5962C2009FD4E9 /* 2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2015.json; sourceTree = "<group>"; };
+		22E9F0171A5962C2009FD4E9 /* 2016.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2016.json; sourceTree = "<group>"; };
+		22E9F0181A5962C2009FD4E9 /* 2017.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2017.json; sourceTree = "<group>"; };
+		22F2815819D85EB400207B1E /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Annotation.h; path = ../Annotation/Annotation.h; sourceTree = "<group>"; };
+		22F2815919D85EB400207B1E /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Annotation.m; path = ../Annotation/Annotation.m; sourceTree = "<group>"; };
+		22F2815C19D85EB400207B1E /* AnnotationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotationHandler.h; path = Classes/Annotation/AnnotationHandler.h; sourceTree = "<group>"; };
+		22F2815D19D85EB400207B1E /* AnnotationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotationHandler.m; path = Classes/Annotation/AnnotationHandler.m; sourceTree = "<group>"; };
+		22F2815E19D85EB400207B1E /* AnnotationReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotationReminderViewController.h; path = Classes/Annotation/AnnotationReminderViewController.h; sourceTree = "<group>"; };
+		22F2815F19D85EB400207B1E /* AnnotationReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotationReminderViewController.m; path = Classes/Annotation/AnnotationReminderViewController.m; sourceTree = "<group>"; };
+		22F2816019D85EB400207B1E /* AnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotationViewController.h; path = Classes/Annotation/AnnotationViewController.h; sourceTree = "<group>"; };
+		22F2816119D85EB400207B1E /* AnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotationViewController.m; path = Classes/Annotation/AnnotationViewController.m; sourceTree = "<group>"; };
+		22F2816219D85EB400207B1E /* ColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPicker.h; path = Classes/Annotation/ColorPicker.h; sourceTree = "<group>"; };
+		22F2816319D85EB400207B1E /* ColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPicker.m; path = Classes/Annotation/ColorPicker.m; sourceTree = "<group>"; };
+		22F2816419D85EB400207B1E /* ImageAnnotationSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageAnnotationSettingsViewController.h; path = Classes/Annotation/ImageAnnotationSettingsViewController.h; sourceTree = "<group>"; };
+		22F2816519D85EB400207B1E /* ImageAnnotationSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageAnnotationSettingsViewController.m; path = Classes/Annotation/ImageAnnotationSettingsViewController.m; sourceTree = "<group>"; };
+		22F2816619D85EB400207B1E /* ImageAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageAnnotationViewController.h; path = Classes/Annotation/ImageAnnotationViewController.h; sourceTree = "<group>"; };
+		22F2816719D85EB400207B1E /* ImageAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageAnnotationViewController.m; path = Classes/Annotation/ImageAnnotationViewController.m; sourceTree = "<group>"; };
+		22F2816819D85EB400207B1E /* PencilStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PencilStyle.h; path = ../Annotation/PencilStyle.h; sourceTree = "<group>"; };
+		22F2816919D85EB400207B1E /* PencilStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PencilStyle.m; path = ../Annotation/PencilStyle.m; sourceTree = "<group>"; };
+		22F2816A19D85EB400207B1E /* PencilStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PencilStyleView.h; path = Classes/Annotation/PencilStyleView.h; sourceTree = "<group>"; };
+		22F2816B19D85EB400207B1E /* PencilStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PencilStyleView.m; path = Classes/Annotation/PencilStyleView.m; sourceTree = "<group>"; };
+		22F2816C19D85EB400207B1E /* PhotoAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoAnnotationViewController.h; path = Classes/Annotation/PhotoAnnotationViewController.h; sourceTree = "<group>"; };
+		22F2816D19D85EB400207B1E /* PhotoAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoAnnotationViewController.m; path = Classes/Annotation/PhotoAnnotationViewController.m; sourceTree = "<group>"; };
+		22F2816E19D85EB400207B1E /* TextAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextAnnotationViewController.h; path = Classes/Annotation/TextAnnotationViewController.h; sourceTree = "<group>"; };
+		22F2816F19D85EB400207B1E /* TextAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextAnnotationViewController.m; path = Classes/Annotation/TextAnnotationViewController.m; sourceTree = "<group>"; };
+		22F2817219D85EB400207B1E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Classes/Annotation/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		22F2817319D85EB400207B1E /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Classes/Annotation/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		22F2817619D85EB400207B1E /* VideoAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoAnnotationViewController.h; path = Classes/Annotation/VideoAnnotationViewController.h; sourceTree = "<group>"; };
+		22F2817719D85EB400207B1E /* VideoAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoAnnotationViewController.m; path = Classes/Annotation/VideoAnnotationViewController.m; sourceTree = "<group>"; };
+		22F2818B19D8A69100207B1E /* JSONValueTransformer+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONValueTransformer+UIColor.h"; path = "Classes/JSONValueTransformer+UIColor.h"; sourceTree = "<group>"; };
+		22F2818C19D8A69100207B1E /* JSONValueTransformer+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSONValueTransformer+UIColor.m"; path = "Classes/JSONValueTransformer+UIColor.m"; sourceTree = "<group>"; };
+		22F77CA51916DDDA005AE2A6 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Extension.h"; path = "Classes/UIButton+Extension.h"; sourceTree = "<group>"; };
+		22F77CA61916DDDA005AE2A6 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Extension.m"; path = "Classes/UIButton+Extension.m"; sourceTree = "<group>"; };
+		22F77CA81916DDFD005AE2A6 /* PersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonTableViewController.h; path = Classes/PersonTableViewController.h; sourceTree = "<group>"; };
+		22F77CA91916DDFD005AE2A6 /* PersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonTableViewController.m; path = Classes/PersonTableViewController.m; sourceTree = "<group>"; };
+		22F77CAB1916DE0E005AE2A6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		22F77CAC1916DE0E005AE2A6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		22F8AA691D9845570043194D /* TeacherPlanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeacherPlanner.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22451A49186F2E3E0035E34F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2202AE571C856A3A0010A9C6 /* AVKit.framework in Frameworks */,
+				2202AE551C856A350010A9C6 /* AVFoundation.framework in Frameworks */,
+				22B524AA1C608A4B00FA9D40 /* libobjc.tbd in Frameworks */,
+				22124F662076B2E70091ECA5 /* libxml2.2.tbd in Frameworks */,
+				22B524A61C608A3600FA9D40 /* libz.tbd in Frameworks */,
+				22A4BE6E1A3C5FC4005B63BE /* LocalAuthentication.framework in Frameworks */,
+				2297B4F5197AC10D00E6C07E /* MessageUI.framework in Frameworks */,
+				22833EBD18702B11002DFF1A /* Security.framework in Frameworks */,
+				22451A52186F2E3E0035E34F /* CoreGraphics.framework in Frameworks */,
+				22451A54186F2E3E0035E34F /* UIKit.framework in Frameworks */,
+				22451A50186F2E3E0035E34F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22451A70186F2E3E0035E34F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22451A77186F2E3E0035E34F /* UIKit.framework in Frameworks */,
+				22451A76186F2E3E0035E34F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220313A11927810F000552BF /* SchoolYear */ = {
+			isa = PBXGroup;
+			children = (
+				22B7885719164A5700C99EC3 /* SchoolYearTabBarViewController.h */,
+				22B7885819164A5700C99EC3 /* SchoolYearTabBarViewController.m */,
+				22B7885A19164AAC00C99EC3 /* SchoolYearGeneralViewController.h */,
+				22B7885B19164AAC00C99EC3 /* SchoolYearGeneralViewController.m */,
+				22B78860191676E600C99EC3 /* SchoolYearTimeTableViewController.h */,
+				22B78861191676E600C99EC3 /* SchoolYearTimeTableViewController.m */,
+				22B788631916770B00C99EC3 /* SchoolYearVacationPlanViewController.h */,
+				22B788641916770B00C99EC3 /* SchoolYearVacationPlanViewController.m */,
+				220313A519278167000552BF /* SchoolYearAnnotationViewController.h */,
+				220313A619278167000552BF /* SchoolYearAnnotationViewController.m */,
+			);
+			name = SchoolYear;
+			sourceTree = "<group>";
+		};
+		220313A219278115000552BF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				220313A819278194000552BF /* SettingsTabBarViewController.h */,
+				220313A919278194000552BF /* SettingsTabBarViewController.m */,
+				220313AB1927821D000552BF /* SettingsGeneralViewController.h */,
+				220313AC1927821D000552BF /* SettingsGeneralViewController.m */,
+				229E98BC1A4F01BB009B8F93 /* SettingsConfigurationViewController.h */,
+				229E98BD1A4F01BB009B8F93 /* SettingsConfigurationViewController.m */,
+				222639A41A4F23FF006B8F55 /* SettingsPersonsViewController.h */,
+				222639A51A4F23FF006B8F55 /* SettingsPersonsViewController.m */,
+				2260FD291A46CFA0006C76CD /* SettingsExportViewController.h */,
+				2260FD2A1A46CFA0006C76CD /* SettingsExportViewController.m */,
+				2237F2D11A52F86C00495FCA /* SettingsAddExportViewController.h */,
+				2237F2D21A52F86C00495FCA /* SettingsAddExportViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		220313A31927811B000552BF /* SchoolClass */ = {
+			isa = PBXGroup;
+			children = (
+				220313AE192783CC000552BF /* SchoolClassTabBarViewController.h */,
+				220313AF192783CC000552BF /* SchoolClassTabBarViewController.m */,
+				220313B1192783DA000552BF /* SchoolClassGeneralViewController.h */,
+				220313B2192783DA000552BF /* SchoolClassGeneralViewController.m */,
+				2254E48F1AB5A79500E7B0EB /* SchoolClassLessonsViewController.h */,
+				2254E4901AB5A79500E7B0EB /* SchoolClassLessonsViewController.m */,
+				220313B41927841F000552BF /* SchoolClassSeatingPlanViewController.h */,
+				220313B51927841F000552BF /* SchoolClassSeatingPlanViewController.m */,
+				225213621A7A17FD00373F65 /* SchoolClassTeachingViewController.h */,
+				225213631A7A17FD00373F65 /* SchoolClassTeachingViewController.m */,
+				220313BA19278450000552BF /* SchoolClassExamViewController.h */,
+				220313BB19278450000552BF /* SchoolClassExamViewController.m */,
+				220313B71927843C000552BF /* SchoolClassAnnotationViewController.h */,
+				220313B81927843C000552BF /* SchoolClassAnnotationViewController.m */,
+				22115E921A7031F700ABBA5F /* SchoolClassExportTableViewController.h */,
+				22115E931A7031F700ABBA5F /* SchoolClassExportTableViewController.m */,
+			);
+			name = SchoolClass;
+			sourceTree = "<group>";
+		};
+		220313A419278120000552BF /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				220313BD19278691000552BF /* StudentTabBarViewController.h */,
+				220313BE19278691000552BF /* StudentTabBarViewController.m */,
+				220313C0192786C3000552BF /* StudentGeneralViewController.h */,
+				220313C1192786C3000552BF /* StudentGeneralViewController.m */,
+				220313C3192786FD000552BF /* StudentTeachingViewController.h */,
+				220313C4192786FD000552BF /* StudentTeachingViewController.m */,
+				220313C61927871F000552BF /* StudentGradeViewController.h */,
+				220313C71927871F000552BF /* StudentGradeViewController.m */,
+				227D60CB1AAB650B00EE851B /* StudentAnnotationViewController.h */,
+				227D60CC1AAB650B00EE851B /* StudentAnnotationViewController.m */,
+			);
+			name = Student;
+			sourceTree = "<group>";
+		};
+		2223424E1921733A00FA0667 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				223812621927519E00FC05A5 /* Calendar */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		223526AE1A881C91004C539B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				222DEEA11A6BCF8A00C5DC11 /* CodesBase.h */,
+				222DEEA21A6BCF8A00C5DC11 /* CodesBase.m */,
+				222DEEA41A6BD04400C5DC11 /* ModelBase.h */,
+				222DEEA51A6BD04400C5DC11 /* ModelBase.m */,
+				22578D8018829DFA000C5B6F /* JSONEntity.h */,
+				22578D8118829DFA000C5B6F /* JSONEntity.m */,
+				2257297919ECEE7300F09C7E /* JSONRootEntity.h */,
+				2257297A19ECEE7300F09C7E /* JSONRootEntity.m */,
+				222DEE9B1A6BC83200C5DC11 /* JSONChildEntity.h */,
+				222DEE9C1A6BC83200C5DC11 /* JSONChildEntity.m */,
+				222DEE9E1A6BC88600C5DC11 /* JSONTransientEntity.h */,
+				222DEE9F1A6BC88600C5DC11 /* JSONTransientEntity.m */,
+				22513621195F630700237CB0 /* Bindable.h */,
+				22513622195F630700237CB0 /* Bindable.m */,
+				2237F2CE1A52B8A000495FCA /* Binding.h */,
+				2237F2CF1A52B8A000495FCA /* Binding.m */,
+				222B0CB01928F619002CA400 /* PropertyBinding.h */,
+				222B0CB11928F619002CA400 /* PropertyBinding.m */,
+				226D1DC41A434432004E1ACE /* ContextBinding.h */,
+				226D1DC51A434432004E1ACE /* ContextBinding.m */,
+				2241D30419E16FA400A433BA /* DefaultBindable.h */,
+				2241D30519E16FA400A433BA /* DefaultBindable.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		223526AF1A881CB1004C539B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2271F7C71AC02C8100D8A058 /* DayFlow */,
+				22578D7F18829DFA000C5B6F /* JSONModel */,
+				22578D9C18829DFB000C5B6F /* Zip */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		2237F2D41A52FF5A00495FCA /* Transient */ = {
+			isa = PBXGroup;
+			children = (
+				220313D819279AA5000552BF /* TransientCustomData.h */,
+				220313D919279AA5000552BF /* TransientCustomData.m */,
+				229E98BF1A4F1581009B8F93 /* TransientConfiguration.h */,
+				229E98C01A4F1581009B8F93 /* TransientConfiguration.m */,
+				2237F2D51A52FF9000495FCA /* TransientNewExport.h */,
+				2237F2D61A52FF9000495FCA /* TransientNewExport.m */,
+				2253BDE01AF3B5B600A06155 /* TransientReminder.h */,
+				2253BDE11AF3B5B600A06155 /* TransientReminder.m */,
+				226B37F71B1355DD00174E49 /* TransientAnnotationContainer.h */,
+				226B37F81B1355DD00174E49 /* TransientAnnotationContainer.m */,
+			);
+			name = Transient;
+			sourceTree = "<group>";
+		};
+		223812621927519E00FC05A5 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				22E9F0151A5962C2009FD4E9 /* 2014.json */,
+				22E9F0161A5962C2009FD4E9 /* 2015.json */,
+				22E9F0171A5962C2009FD4E9 /* 2016.json */,
+				22E9F0181A5962C2009FD4E9 /* 2017.json */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		2238F647195A9D7400D66EBC /* TileLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2238F648195AA02300D66EBC /* TileLayoutView.h */,
+				2238F649195AA02300D66EBC /* TileLayoutView.m */,
+				2238F64A195AA02300D66EBC /* TileLayoutViewController.h */,
+				2238F64B195AA02300D66EBC /* TileLayoutViewController.m */,
+				2238F64C195AA02300D66EBC /* TileViewController.h */,
+				2238F64D195AA02300D66EBC /* TileViewController.m */,
+				227F2503195CA413001A8079 /* TileViewControllerDataSource.h */,
+				227F2504195CA413001A8079 /* TileViewControllerDataSource.m */,
+			);
+			name = TileLayout;
+			sourceTree = "<group>";
+		};
+		2238F651195AA38D00D66EBC /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				22D500721B2D9A8C007CA9D0 /* Setup */,
+				22578D9818829DFB000C5B6F /* RootViewController.h */,
+				22578D9918829DFB000C5B6F /* RootViewController.m */,
+				228DA6731956F31800106DC7 /* MenuViewController.h */,
+				228DA6741956F31800106DC7 /* MenuViewController.m */,
+				22B1A57A1938C1E100B2FF14 /* MainViewController.h */,
+				22B1A57B1938C1E100B2FF14 /* MainViewController.m */,
+				22578D9318829DFA000C5B6F /* StartViewController.h */,
+				22578D9418829DFA000C5B6F /* StartViewController.m */,
+				22578D9018829DFA000C5B6F /* LockScreenViewController.h */,
+				22578D9118829DFA000C5B6F /* LockScreenViewController.m */,
+				22578D9218829DFA000C5B6F /* LockScreenViewController.xib */,
+				2257C5A71A29F406000DCC68 /* ApplicationTableViewController.h */,
+				2257C5A81A29F406000DCC68 /* ApplicationTableViewController.m */,
+				226452B21A472DF600FD48EA /* ImportApplicationTableViewController.h */,
+				226452B31A472DF600FD48EA /* ImportApplicationTableViewController.m */,
+			);
+			name = Structure;
+			sourceTree = "<group>";
+		};
+		22440CF9195486340077CF1F /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				2297B4F1197A9EA600E6C07E /* PDFTableCreator.h */,
+				2297B4F2197A9EA600E6C07E /* PDFTableCreator.m */,
+				22440D00195486A90077CF1F /* PDFTableViewController.h */,
+				22440D01195486A90077CF1F /* PDFTableViewController.m */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		22451A43186F2E3E0035E34F = {
+			isa = PBXGroup;
+			children = (
+				22451A55186F2E3E0035E34F /* TeacherPlanner */,
+				225EBD5E1A47093600D4B2F0 /* TeacherPlannerTests */,
+				22451A4E186F2E3E0035E34F /* Frameworks */,
+				22451A4D186F2E3E0035E34F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22451A4D186F2E3E0035E34F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22451A4C186F2E3E0035E34F /* TeacherPlanner.app */,
+				22451A73186F2E3E0035E34F /* TeacherPlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22451A4E186F2E3E0035E34F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22124F652076B2E70091ECA5 /* libxml2.2.tbd */,
+				2202AE561C856A3A0010A9C6 /* AVKit.framework */,
+				2202AE541C856A350010A9C6 /* AVFoundation.framework */,
+				22B524A91C608A4B00FA9D40 /* libobjc.tbd */,
+				22B524A51C608A3600FA9D40 /* libz.tbd */,
+				22A4BE6D1A3C5FC4005B63BE /* LocalAuthentication.framework */,
+				2297B4F4197AC10D00E6C07E /* MessageUI.framework */,
+				22833EBC18702B11002DFF1A /* Security.framework */,
+				22451A4F186F2E3E0035E34F /* Foundation.framework */,
+				22451A51186F2E3E0035E34F /* CoreGraphics.framework */,
+				22451A53186F2E3E0035E34F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22451A55186F2E3E0035E34F /* TeacherPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				2223424E1921733A00FA0667 /* Data */,
+				223526AF1A881CB1004C539B /* Lib */,
+				22BA26D318FADE1B00CD246B /* Common */,
+				22578D6E18829DFA000C5B6F /* Entity */,
+				22BA26CC18FABFE500CD246B /* Menu */,
+				22B788561916499D00C99EC3 /* Content */,
+				2238F651195AA38D00D66EBC /* Structure */,
+				22F77CAB1916DE0E005AE2A6 /* AppDelegate.h */,
+				22F77CAC1916DE0E005AE2A6 /* AppDelegate.m */,
+				22317007198E7FD500353BAE /* Configuration.h */,
+				22317008198E7FD500353BAE /* Configuration.m */,
+				22451A6D186F2E3E0035E34F /* Images.xcassets */,
+				22451A56186F2E3E0035E34F /* Supporting Files */,
+			);
+			path = TeacherPlanner;
+			sourceTree = "<group>";
+		};
+		22451A56186F2E3E0035E34F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F8AA691D9845570043194D /* TeacherPlanner.entitlements */,
+				229D155819322F8C00D30A80 /* de.lproj */,
+				229D155419322F5800D30A80 /* en.lproj */,
+				22957FAB187C86350000B6A5 /* Settings.bundle */,
+				22451A57186F2E3E0035E34F /* TeacherPlanner-Info.plist */,
+				22451A5B186F2E3E0035E34F /* main.m */,
+				22451A5D186F2E3E0035E34F /* TeacherPlanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		225213651A7A1D0E00373F65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22AB7F2219548F6A0057152E /* AbstractNavigationController.h */,
+				22AB7F2319548F6A0057152E /* AbstractNavigationController.m */,
+				229D15621932473300D30A80 /* AbstractTabBarViewController.h */,
+				229D15631932473300D30A80 /* AbstractTabBarViewController.m */,
+				228DA6761956F7D600106DC7 /* AbstractBaseViewController.h */,
+				228DA6771956F7D600106DC7 /* AbstractBaseViewController.m */,
+				22E6237D1A6BFEEF00F83B94 /* AbstractBaseTableViewController.h */,
+				22E6237E1A6BFEEF00F83B94 /* AbstractBaseTableViewController.m */,
+				22484E3C191C1F2C0068FEE0 /* AbstractMenuBaseTableViewController.h */,
+				22484E3D191C1F2C0068FEE0 /* AbstractMenuBaseTableViewController.m */,
+				2252135F1A7A12F500373F65 /* AbstractMenuTableViewController.h */,
+				225213601A7A12F500373F65 /* AbstractMenuTableViewController.m */,
+				220313CC19278B1D000552BF /* AbstractContentTableViewController.h */,
+				220313CD19278B1D000552BF /* AbstractContentTableViewController.m */,
+				220C17A91943512800D75829 /* AbstractContentDetailTableViewController.h */,
+				220C17AA1943512800D75829 /* AbstractContentDetailTableViewController.m */,
+				224C4178194C8823009FA33D /* InlineCodeSelectionTableViewController.h */,
+				224C4177194C8823009FA33D /* InlineCodeSelectionTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		225213661A7A1D4500373F65 /* Reuse */ = {
+			isa = PBXGroup;
+			children = (
+				22578D9A18829DFB000C5B6F /* Utilities.h */,
+				22578D9B18829DFB000C5B6F /* Utilities.m */,
+				22A386DE1A5E65250074E8E6 /* Common.h */,
+				22A386DF1A5E65250074E8E6 /* Common.m */,
+				22F2816219D85EB400207B1E /* ColorPicker.h */,
+				22F2816319D85EB400207B1E /* ColorPicker.m */,
+				22440CF319547B570077CF1F /* ShareUtilities.h */,
+				22440CF419547B570077CF1F /* ShareUtilities.m */,
+				22440CF6195480E90077CF1F /* ExportCalendarActivity.h */,
+				22440CF7195480E90077CF1F /* ExportCalendarActivity.m */,
+			);
+			name = Reuse;
+			sourceTree = "<group>";
+		};
+		2255321A1A913E770057B0D1 /* XLS */ = {
+			isa = PBXGroup;
+			children = (
+				225532201A913EFF0057B0D1 /* Template */,
+				2255321B1A913E9E0057B0D1 /* XLSFileCreator.h */,
+				2255321C1A913E9E0057B0D1 /* XLSFileCreator.m */,
+				220DEEEB1AAE3469007D6B55 /* XMLReader.h */,
+				220DEEEC1AAE3469007D6B55 /* XMLReader.m */,
+			);
+			name = XLS;
+			sourceTree = "<group>";
+		};
+		225532201A913EFF0057B0D1 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				22C2E4671A9FB48D00DC6A2C /* student.xml */,
+				2268E9861A9141D800AC62E5 /* exam.xml */,
+			);
+			name = Template;
+			sourceTree = "<group>";
+		};
+		22578D6518829DFA000C5B6F /* Crypt */ = {
+			isa = PBXGroup;
+			children = (
+				2297B4EC197A8CAE00E6C07E /* NSData+Crypto.h */,
+				2297B4ED197A8CAE00E6C07E /* NSData+Crypto.m */,
+				22578D6618829DFA000C5B6F /* Crypto.h */,
+				22578D6718829DFA000C5B6F /* Crypto.m */,
+				22578D6818829DFA000C5B6F /* KeychainItemWrapper.h */,
+				22578D6918829DFA000C5B6F /* KeychainItemWrapper.m */,
+				22578D6A18829DFA000C5B6F /* SecureStore.h */,
+				22578D6B18829DFA000C5B6F /* SecureStore.m */,
+			);
+			name = Crypt;
+			path = Classes/Crypt;
+			sourceTree = "<group>";
+		};
+		22578D6E18829DFA000C5B6F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2237F2D41A52FF5A00495FCA /* Transient */,
+				229D156519326BDA00D30A80 /* Codes.h */,
+				229D156619326BDA00D30A80 /* Codes.m */,
+				22578D7118829DFA000C5B6F /* Model.h */,
+				22578D7218829DFA000C5B6F /* Model.m */,
+				22578D6F18829DFA000C5B6F /* Application.h */,
+				22578D7018829DFA000C5B6F /* Application.m */,
+				226AB00F19151F9B00E4B6F9 /* Photo.h */,
+				226AB01019151F9B00E4B6F9 /* Photo.m */,
+				2241D30119E1418600A433BA /* Attachment.h */,
+				2241D30219E1418600A433BA /* Attachment.m */,
+				22578D7318829DFA000C5B6F /* Person.h */,
+				22578D7418829DFA000C5B6F /* Person.m */,
+				22578D7918829DFA000C5B6F /* SchoolYear.h */,
+				22578D7A18829DFA000C5B6F /* SchoolYear.m */,
+				22578D7518829DFA000C5B6F /* PersonRef.h */,
+				22578D7618829DFA000C5B6F /* PersonRef.m */,
+				22578D7B18829DFA000C5B6F /* SchoolYearRef.h */,
+				22578D7C18829DFA000C5B6F /* SchoolYearRef.m */,
+				22578D7718829DFA000C5B6F /* SchoolClass.h */,
+				22578D7818829DFA000C5B6F /* SchoolClass.m */,
+				2273D7841AB4626A002593DE /* Lesson.h */,
+				2273D7851AB4626A002593DE /* Lesson.m */,
+				22578D7D18829DFA000C5B6F /* Student.h */,
+				22578D7E18829DFA000C5B6F /* Student.m */,
+				220313CF19279418000552BF /* Settings.h */,
+				220313D019279418000552BF /* Settings.m */,
+				220313D2192794D7000552BF /* Teacher.h */,
+				220313D3192794D7000552BF /* Teacher.m */,
+				220313D51927955E000552BF /* School.h */,
+				220313D61927955E000552BF /* School.m */,
+				22D3BCC8193BCF9900BA2F6C /* SchoolTime.h */,
+				22D3BCC9193BCF9900BA2F6C /* SchoolTime.m */,
+				22F2815819D85EB400207B1E /* Annotation.h */,
+				22F2815919D85EB400207B1E /* Annotation.m */,
+				2260FD2F1A46D342006C76CD /* AnnotationContainer.h */,
+				2260FD301A46D342006C76CD /* AnnotationContainer.m */,
+				22F2816819D85EB400207B1E /* PencilStyle.h */,
+				22F2816919D85EB400207B1E /* PencilStyle.m */,
+				2222965B1B813632001B5D60 /* Word.h */,
+				2222965C1B813632001B5D60 /* Word.m */,
+			);
+			name = Entity;
+			path = Classes/Entity;
+			sourceTree = "<group>";
+		};
+		22578D7F18829DFA000C5B6F /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				22578D8218829DFA000C5B6F /* JSONKeyMapper.h */,
+				22578D8318829DFA000C5B6F /* JSONKeyMapper.m */,
+				22578D8418829DFA000C5B6F /* JSONModel.h */,
+				22578D8518829DFA000C5B6F /* JSONModel.m */,
+				22578D8618829DFA000C5B6F /* JSONModelArray.h */,
+				22578D8718829DFA000C5B6F /* JSONModelArray.m */,
+				22578D8818829DFA000C5B6F /* JSONModelClassProperty.h */,
+				22578D8918829DFA000C5B6F /* JSONModelClassProperty.m */,
+				22578D8A18829DFA000C5B6F /* JSONModelError.h */,
+				22578D8B18829DFA000C5B6F /* JSONModelError.m */,
+				22578D8C18829DFA000C5B6F /* JSONValueTransformer.h */,
+				22578D8D18829DFA000C5B6F /* JSONValueTransformer.m */,
+				22578D8E18829DFA000C5B6F /* NSArray+JSONModel.h */,
+				22578D8F18829DFA000C5B6F /* NSArray+JSONModel.m */,
+			);
+			name = JSONModel;
+			path = Classes/JSONModel;
+			sourceTree = "<group>";
+		};
+		22578D9C18829DFB000C5B6F /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				22578D9D18829DFB000C5B6F /* minizip */,
+				22578DA918829DFB000C5B6F /* SSZipArchive.h */,
+				22578DAA18829DFB000C5B6F /* SSZipArchive.m */,
+			);
+			name = Zip;
+			path = Classes/Zip;
+			sourceTree = "<group>";
+		};
+		22578D9D18829DFB000C5B6F /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				22578D9E18829DFB000C5B6F /* crypt.h */,
+				22578D9F18829DFB000C5B6F /* ioapi.c */,
+				22578DA018829DFB000C5B6F /* ioapi.h */,
+				22578DA118829DFB000C5B6F /* mztools.c */,
+				22578DA218829DFB000C5B6F /* mztools.h */,
+				22578DA318829DFB000C5B6F /* unzip.c */,
+				22578DA418829DFB000C5B6F /* unzip.h */,
+				22578DA518829DFB000C5B6F /* zip.c */,
+				22578DA618829DFB000C5B6F /* zip.h */,
+				22578DA718829DFB000C5B6F /* ZipArchive.h */,
+				22578DA818829DFB000C5B6F /* ZipArchive.mm */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		22578DCE18829E76000C5B6F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				226E431C1AF536AB0003AD42 /* JSONValueTransformer */,
+				22578DCF18829EC5000C5B6F /* UIColor+Extension.h */,
+				22578DD018829EC5000C5B6F /* UIColor+Extension.m */,
+				2221D92E19E1CD5E0077AC5A /* UILabel+Extension.h */,
+				2221D92F19E1CD5E0077AC5A /* UILabel+Extension.m */,
+				22D0630F18E8A0290047ED99 /* UIImage+Extension.h */,
+				22D0631018E8A0290047ED99 /* UIImage+Extension.m */,
+				22F2817219D85EB400207B1E /* UIImage+ImageEffects.h */,
+				22F2817319D85EB400207B1E /* UIImage+ImageEffects.m */,
+				22B7885019163C4100C99EC3 /* UIBarButtonItem+Extension.h */,
+				22B7885119163C4100C99EC3 /* UIBarButtonItem+Extension.m */,
+				22B7885D1916616B00C99EC3 /* UITabBarItem+Extension.h */,
+				22B7885E1916616B00C99EC3 /* UITabBarItem+Extension.m */,
+				22F77CA51916DDDA005AE2A6 /* UIButton+Extension.h */,
+				22F77CA61916DDDA005AE2A6 /* UIButton+Extension.m */,
+				228DA6701956EFFB00106DC7 /* UIViewController+Extension.h */,
+				228DA6711956EFFB00106DC7 /* UIViewController+Extension.m */,
+				22C1490719EB02950067411B /* NSString+Extension.h */,
+				22C1490819EB02950067411B /* NSString+Extension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		225EBD5E1A47093600D4B2F0 /* TeacherPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				225EBD5F1A47093600D4B2F0 /* InfoPlist.strings */,
+				225EBD611A47093600D4B2F0 /* TeacherPlannerTests-Info.plist */,
+				225EBD621A47093600D4B2F0 /* TeacherPlannerTests.m */,
+			);
+			path = TeacherPlannerTests;
+			sourceTree = "<group>";
+		};
+		226E431C1AF536AB0003AD42 /* JSONValueTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				2219BB651953144D005A45FA /* JSONValueTransformer+NSData.h */,
+				2219BB661953144D005A45FA /* JSONValueTransformer+NSData.m */,
+				22F2818B19D8A69100207B1E /* JSONValueTransformer+UIColor.h */,
+				22F2818C19D8A69100207B1E /* JSONValueTransformer+UIColor.m */,
+				226E43191AF534F40003AD42 /* JSONValueTransformer+UILocalNotification.h */,
+				226E431A1AF534F40003AD42 /* JSONValueTransformer+UILocalNotification.m */,
+				226E431D1AF536C70003AD42 /* JSONValueTransformer+NSDateComponents.h */,
+				226E431E1AF536C70003AD42 /* JSONValueTransformer+NSDateComponents.m */,
+			);
+			name = JSONValueTransformer;
+			sourceTree = "<group>";
+		};
+		2271F7C71AC02C8100D8A058 /* DayFlow */ = {
+			isa = PBXGroup;
+			children = (
+				2271F7CA1AC02C8100D8A058 /* RSDayFlow.h */,
+				2271F7CB1AC02C8100D8A058 /* RSDFDatePickerCollectionView.h */,
+				2271F7CC1AC02C8100D8A058 /* RSDFDatePickerCollectionView.m */,
+				2271F7CD1AC02C8100D8A058 /* RSDFDatePickerCollectionViewLayout.h */,
+				2271F7CE1AC02C8100D8A058 /* RSDFDatePickerCollectionViewLayout.m */,
+				2271F7CF1AC02C8100D8A058 /* RSDFDatePickerDayCell.h */,
+				2271F7D01AC02C8100D8A058 /* RSDFDatePickerDayCell.m */,
+				2271F7D11AC02C8100D8A058 /* RSDFDatePickerDaysOfWeekView.h */,
+				2271F7D21AC02C8100D8A058 /* RSDFDatePickerDaysOfWeekView.m */,
+				2271F7D31AC02C8100D8A058 /* RSDFDatePickerMonthHeader.h */,
+				2271F7D41AC02C8100D8A058 /* RSDFDatePickerMonthHeader.m */,
+				2271F7D51AC02C8100D8A058 /* RSDFDatePickerView.h */,
+				2271F7D61AC02C8100D8A058 /* RSDFDatePickerView.m */,
+				2271F7DE1AC0463500D8A058 /* RSDFDatePickerDetailView.h */,
+				2271F7DF1AC0463500D8A058 /* RSDFDatePickerDetailView.m */,
+				2271F7C81AC02C8100D8A058 /* NSCalendar+RSDFAdditions.h */,
+				2271F7C91AC02C8100D8A058 /* NSCalendar+RSDFAdditions.m */,
+			);
+			name = DayFlow;
+			path = Classes/DayFlow;
+			sourceTree = "<group>";
+		};
+		229D155419322F5800D30A80 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				229D155F1932312000D30A80 /* Localizable.strings */,
+				229D155519322F5800D30A80 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		229D155819322F8C00D30A80 /* de.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				229D155C1932311500D30A80 /* Localizable.strings */,
+				229D155919322F8C00D30A80 /* InfoPlist.strings */,
+			);
+			path = de.lproj;
+			sourceTree = "<group>";
+		};
+		229E98B51A4EFBE8009B8F93 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				229E98B61A4EFC23009B8F93 /* PersonTabBarViewController.h */,
+				229E98B71A4EFC23009B8F93 /* PersonTabBarViewController.m */,
+				229E98B91A4EFC3A009B8F93 /* PersonGeneralViewController.h */,
+				229E98BA1A4EFC3A009B8F93 /* PersonGeneralViewController.m */,
+				220313C91927876F000552BF /* PersonAnnotationViewController.h */,
+				220313CA1927876F000552BF /* PersonAnnotationViewController.m */,
+				222639A11A4F2120006B8F55 /* PersonListTableViewController.h */,
+				222639A21A4F2120006B8F55 /* PersonListTableViewController.m */,
+				226433E31A51530900AC7D3A /* PersonListDetailTableViewController.h */,
+				226433E41A51530900AC7D3A /* PersonListDetailTableViewController.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		22B788561916499D00C99EC3 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				220313A219278115000552BF /* Settings */,
+				220313A11927810F000552BF /* SchoolYear */,
+				220313A31927811B000552BF /* SchoolClass */,
+				220313A419278120000552BF /* Student */,
+				229E98B51A4EFBE8009B8F93 /* Person */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		22BA26CC18FABFE500CD246B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				22BA26CD18FAC31500CD246B /* SchoolYearTableViewController.h */,
+				22BA26CE18FAC31500CD246B /* SchoolYearTableViewController.m */,
+				22A8D1C3190D34D5005F3688 /* SchoolClassTableViewController.h */,
+				22A8D1C4190D34D5005F3688 /* SchoolClassTableViewController.m */,
+				220000881912583100BD5712 /* StudentTableViewController.h */,
+				220000891912583100BD5712 /* StudentTableViewController.m */,
+				22F77CA81916DDFD005AE2A6 /* PersonTableViewController.h */,
+				22F77CA91916DDFD005AE2A6 /* PersonTableViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		22BA26D318FADE1B00CD246B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				225213661A7A1D4500373F65 /* Reuse */,
+				22578D6518829DFA000C5B6F /* Crypt */,
+				22578DCE18829E76000C5B6F /* Category */,
+				22F2815719D841CF00207B1E /* Annotation */,
+				22440CF9195486340077CF1F /* PDF */,
+				2255321A1A913E770057B0D1 /* XLS */,
+				2238F647195A9D7400D66EBC /* TileLayout */,
+				223526AE1A881C91004C539B /* Entity */,
+				225213651A7A1D0E00373F65 /* Controller */,
+				22D3BCBE193B474D00BA2F6C /* Cell */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		22D3BCBE193B474D00BA2F6C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				226D99FD19328809003041B8 /* AbstractTableViewCell.h */,
+				226D99FE19328809003041B8 /* AbstractTableViewCell.m */,
+				224C416E194C8823009FA33D /* InlineSwitchTableViewCell.h */,
+				224C416D194C8823009FA33D /* InlineSwitchTableViewCell.m */,
+				224C4170194C8823009FA33D /* InlineCountTableViewCell.h */,
+				224C416F194C8823009FA33D /* InlineCountTableViewCell.m */,
+				224C4172194C8823009FA33D /* InlinePhotoPickerTableViewCell.h */,
+				224C4171194C8823009FA33D /* InlinePhotoPickerTableViewCell.m */,
+				224C4174194C8823009FA33D /* InlineEditTableViewCell.h */,
+				224C4173194C8823009FA33D /* InlineEditTableViewCell.m */,
+				2221D7C91A50399E0004ECF4 /* InlineMultilineEditTableViewCell.h */,
+				2221D7CA1A50399E0004ECF4 /* InlineMultilineEditTableViewCell.m */,
+				224C4176194C8823009FA33D /* InlineDatePickerTableViewCell.h */,
+				224C4175194C8823009FA33D /* InlineDatePickerTableViewCell.m */,
+				224C416C194C8823009FA33D /* InlineTimeFromToTableViewCell.h */,
+				224C416B194C8823009FA33D /* InlineTimeFromToTableViewCell.m */,
+				224C417A194C8823009FA33D /* InlineCodeSelectionTableViewCell.h */,
+				224C4179194C8823009FA33D /* InlineCodeSelectionTableViewCell.m */,
+				2273C8C91A42AEA300FDF815 /* InlineEntitySelectionTableViewCell.h */,
+				2273C8CA1A42AEA300FDF815 /* InlineEntitySelectionTableViewCell.m */,
+				224C417C194C8823009FA33D /* InlineCodePickerTableViewCell.h */,
+				224C417B194C8823009FA33D /* InlineCodePickerTableViewCell.m */,
+				22A4BE6F1A3C7E29005B63BE /* InlineRatingTableViewCell.h */,
+				22A4BE701A3C7E29005B63BE /* InlineRatingTableViewCell.m */,
+				22A4BE721A3C86B4005B63BE /* InlineColorPickerTableViewCell.h */,
+				22A4BE731A3C86B4005B63BE /* InlineColorPickerTableViewCell.m */,
+				221BD06A1AB1766900C91F82 /* InlineColorPreviewTableViewCell.h */,
+				221BD06B1AB1766900C91F82 /* InlineColorPreviewTableViewCell.m */,
+				221BD0671AB16E6000C91F82 /* InlineSliderTableViewCell.h */,
+				221BD0681AB16E6000C91F82 /* InlineSliderTableViewCell.m */,
+				2273D7871AB477A4002593DE /* InlineDisplayTableViewCell.h */,
+				2273D7881AB477A4002593DE /* InlineDisplayTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		22D500721B2D9A8C007CA9D0 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				22D5007C1B2DC7E3007CA9D0 /* SetupBaseViewController.h */,
+				22D5007D1B2DC7E3007CA9D0 /* SetupBaseViewController.m */,
+				22D500731B2D9C72007CA9D0 /* SetupWelcomeViewController.h */,
+				22D500741B2D9C72007CA9D0 /* SetupWelcomeViewController.m */,
+				22D500761B2DABD9007CA9D0 /* SetupTeacherViewController.h */,
+				22D500771B2DABD9007CA9D0 /* SetupTeacherViewController.m */,
+				22D500791B2DC385007CA9D0 /* SetupSchoolViewController.h */,
+				22D5007A1B2DC385007CA9D0 /* SetupSchoolViewController.m */,
+			);
+			name = Setup;
+			sourceTree = "<group>";
+		};
+		22F2815719D841CF00207B1E /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				22F2816019D85EB400207B1E /* AnnotationViewController.h */,
+				22F2816119D85EB400207B1E /* AnnotationViewController.m */,
+				22F2815C19D85EB400207B1E /* AnnotationHandler.h */,
+				22F2815D19D85EB400207B1E /* AnnotationHandler.m */,
+				22F2815E19D85EB400207B1E /* AnnotationReminderViewController.h */,
+				22F2815F19D85EB400207B1E /* AnnotationReminderViewController.m */,
+				22F2816419D85EB400207B1E /* ImageAnnotationSettingsViewController.h */,
+				22F2816519D85EB400207B1E /* ImageAnnotationSettingsViewController.m */,
+				22F2816619D85EB400207B1E /* ImageAnnotationViewController.h */,
+				22F2816719D85EB400207B1E /* ImageAnnotationViewController.m */,
+				22F2816C19D85EB400207B1E /* PhotoAnnotationViewController.h */,
+				22F2816D19D85EB400207B1E /* PhotoAnnotationViewController.m */,
+				22F2816E19D85EB400207B1E /* TextAnnotationViewController.h */,
+				22F2816F19D85EB400207B1E /* TextAnnotationViewController.m */,
+				22F2817619D85EB400207B1E /* VideoAnnotationViewController.h */,
+				22F2817719D85EB400207B1E /* VideoAnnotationViewController.m */,
+				22F2816A19D85EB400207B1E /* PencilStyleView.h */,
+				22F2816B19D85EB400207B1E /* PencilStyleView.m */,
+				222296581B8120D9001B5D60 /* DictionaryViewController.h */,
+				222296591B8120D9001B5D60 /* DictionaryViewController.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22451A4B186F2E3E0035E34F /* TeacherPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22451A84186F2E3E0035E34F /* Build configuration list for PBXNativeTarget "TeacherPlanner" */;
+			buildPhases = (
+				22451A48186F2E3E0035E34F /* Sources */,
+				22451A49186F2E3E0035E34F /* Frameworks */,
+				22451A4A186F2E3E0035E34F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeacherPlanner;
+			productName = TeacherPlanner;
+			productReference = 22451A4C186F2E3E0035E34F /* TeacherPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22451A72186F2E3E0035E34F /* TeacherPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22451A87186F2E3E0035E34F /* Build configuration list for PBXNativeTarget "TeacherPlannerTests" */;
+			buildPhases = (
+				22451A6F186F2E3E0035E34F /* Sources */,
+				22451A70186F2E3E0035E34F /* Frameworks */,
+				22451A71186F2E3E0035E34F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22451A79186F2E3E0035E34F /* PBXTargetDependency */,
+			);
+			name = TeacherPlannerTests;
+			productName = TeacherPlannerTests;
+			productReference = 22451A73186F2E3E0035E34F /* TeacherPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22451A44186F2E3E0035E34F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					22451A4B186F2E3E0035E34F = {
+						DevelopmentTeam = 6N277JA649;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					22451A72186F2E3E0035E34F = {
+						TestTargetID = 22451A4B186F2E3E0035E34F;
+					};
+				};
+			};
+			buildConfigurationList = 22451A47186F2E3E0035E34F /* Build configuration list for PBXProject "TeacherPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 22451A43186F2E3E0035E34F;
+			productRefGroup = 22451A4D186F2E3E0035E34F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22451A4B186F2E3E0035E34F /* TeacherPlanner */,
+				22451A72186F2E3E0035E34F /* TeacherPlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22451A4A186F2E3E0035E34F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C2E4681A9FB48D00DC6A2C /* student.xml in Resources */,
+				22E9F01C1A5962C2009FD4E9 /* 2017.json in Resources */,
+				22E9F0191A5962C2009FD4E9 /* 2014.json in Resources */,
+				22451A6E186F2E3E0035E34F /* Images.xcassets in Resources */,
+				229D155B19322F8C00D30A80 /* InfoPlist.strings in Resources */,
+				229D155719322F5800D30A80 /* InfoPlist.strings in Resources */,
+				22E9F01B1A5962C2009FD4E9 /* 2016.json in Resources */,
+				2268E9871A9141D800AC62E5 /* exam.xml in Resources */,
+				22E9F01A1A5962C2009FD4E9 /* 2015.json in Resources */,
+				229D155E1932311500D30A80 /* Localizable.strings in Resources */,
+				229D15611932312000D30A80 /* Localizable.strings in Resources */,
+				22578DC218829DFB000C5B6F /* LockScreenViewController.xib in Resources */,
+				22957FAC187C86350000B6A5 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22451A71186F2E3E0035E34F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225EBD631A47093600D4B2F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22451A48186F2E3E0035E34F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220313DA19279AA5000552BF /* TransientCustomData.m in Sources */,
+				228DA6721956EFFB00106DC7 /* UIViewController+Extension.m in Sources */,
+				226AB01119151F9B00E4B6F9 /* Photo.m in Sources */,
+				22F2817819D85EB400207B1E /* Annotation.m in Sources */,
+				221BD06C1AB1766900C91F82 /* InlineColorPreviewTableViewCell.m in Sources */,
+				22D0631118E8A0290047ED99 /* UIImage+Extension.m in Sources */,
+				22578DCB18829DFB000C5B6F /* zip.c in Sources */,
+				22578DC718829DFB000C5B6F /* Utilities.m in Sources */,
+				22F77CAA1916DDFD005AE2A6 /* PersonTableViewController.m in Sources */,
+				222DEE9D1A6BC83200C5DC11 /* JSONChildEntity.m in Sources */,
+				22AB7F2419548F6A0057152E /* AbstractNavigationController.m in Sources */,
+				22B78862191676E600C99EC3 /* SchoolYearTimeTableViewController.m in Sources */,
+				226E431B1AF534F40003AD42 /* JSONValueTransformer+UILocalNotification.m in Sources */,
+				2219BB671953144D005A45FA /* JSONValueTransformer+NSData.m in Sources */,
+				22578DB118829DFB000C5B6F /* Application.m in Sources */,
+				222639A61A4F23FF006B8F55 /* SettingsPersonsViewController.m in Sources */,
+				227D60CD1AAB650B00EE851B /* StudentAnnotationViewController.m in Sources */,
+				22115E941A7031F700ABBA5F /* SchoolClassExportTableViewController.m in Sources */,
+				222B0CB21928F619002CA400 /* PropertyBinding.m in Sources */,
+				22578DB718829DFB000C5B6F /* SchoolYearRef.m in Sources */,
+				2271F7D91AC02C8100D8A058 /* RSDFDatePickerCollectionViewLayout.m in Sources */,
+				22F2818719D85EB400207B1E /* VideoAnnotationViewController.m in Sources */,
+				22578DB518829DFB000C5B6F /* SchoolClass.m in Sources */,
+				22578DAF18829DFB000C5B6F /* SecureStore.m in Sources */,
+				2221D93019E1CD5E0077AC5A /* UILabel+Extension.m in Sources */,
+				2255321D1A913E9E0057B0D1 /* XLSFileCreator.m in Sources */,
+				22F2817B19D85EB400207B1E /* AnnotationReminderViewController.m in Sources */,
+				2237F2D31A52F86C00495FCA /* SettingsAddExportViewController.m in Sources */,
+				2273D7861AB4626A002593DE /* Lesson.m in Sources */,
+				220313BF19278691000552BF /* StudentTabBarViewController.m in Sources */,
+				22D5007B1B2DC385007CA9D0 /* SetupSchoolViewController.m in Sources */,
+				220313D71927955E000552BF /* School.m in Sources */,
+				22F2818219D85EB400207B1E /* PhotoAnnotationViewController.m in Sources */,
+				22578DC018829DFB000C5B6F /* NSArray+JSONModel.m in Sources */,
+				229D15641932473300D30A80 /* AbstractTabBarViewController.m in Sources */,
+				22D3BCCA193BCF9900BA2F6C /* SchoolTime.m in Sources */,
+				2237F2D71A52FF9000495FCA /* TransientNewExport.m in Sources */,
+				220313AD1927821D000552BF /* SettingsGeneralViewController.m in Sources */,
+				22A386E01A5E65250074E8E6 /* Common.m in Sources */,
+				2254E4911AB5A79500E7B0EB /* SchoolClassLessonsViewController.m in Sources */,
+				22578DB418829DFB000C5B6F /* PersonRef.m in Sources */,
+				2237F2D01A52B8A000495FCA /* Binding.m in Sources */,
+				224C4180194C8823009FA33D /* InlineSwitchTableViewCell.m in Sources */,
+				22D500781B2DABD9007CA9D0 /* SetupTeacherViewController.m in Sources */,
+				22578DC118829DFB000C5B6F /* LockScreenViewController.m in Sources */,
+				2238F64F195AA02300D66EBC /* TileLayoutViewController.m in Sources */,
+				229E98B81A4EFC23009B8F93 /* PersonTabBarViewController.m in Sources */,
+				2297B4F3197A9EA600E6C07E /* PDFTableCreator.m in Sources */,
+				22D5007E1B2DC7E3007CA9D0 /* SetupBaseViewController.m in Sources */,
+				220313D4192794D7000552BF /* Teacher.m in Sources */,
+				224C4187194C8823009FA33D /* InlineCodePickerTableViewCell.m in Sources */,
+				22578DBC18829DFB000C5B6F /* JSONModelArray.m in Sources */,
+				22578DB318829DFB000C5B6F /* Person.m in Sources */,
+				22513623195F630700237CB0 /* Bindable.m in Sources */,
+				229E98BE1A4F01BB009B8F93 /* SettingsConfigurationViewController.m in Sources */,
+				220313B91927843C000552BF /* SchoolClassAnnotationViewController.m in Sources */,
+				22578DAD18829DFB000C5B6F /* Crypto.m in Sources */,
+				2271F7DB1AC02C8100D8A058 /* RSDFDatePickerDaysOfWeekView.m in Sources */,
+				22578DCA18829DFB000C5B6F /* unzip.c in Sources */,
+				22578DAE18829DFB000C5B6F /* KeychainItemWrapper.m in Sources */,
+				228DA6781956F7D600106DC7 /* AbstractBaseViewController.m in Sources */,
+				2257C5A91A29F406000DCC68 /* ApplicationTableViewController.m in Sources */,
+				22B7885F1916616B00C99EC3 /* UITabBarItem+Extension.m in Sources */,
+				22578DBB18829DFB000C5B6F /* JSONModel.m in Sources */,
+				2253BDE21AF3B5B600A06155 /* TransientReminder.m in Sources */,
+				22578DB918829DFB000C5B6F /* JSONEntity.m in Sources */,
+				22F2818519D85EB400207B1E /* UIImage+ImageEffects.m in Sources */,
+				225213641A7A17FD00373F65 /* SchoolClassTeachingViewController.m in Sources */,
+				220313D119279418000552BF /* Settings.m in Sources */,
+				220313A719278167000552BF /* SchoolYearAnnotationViewController.m in Sources */,
+				22E6237F1A6BFEEF00F83B94 /* AbstractBaseTableViewController.m in Sources */,
+				222DEEA01A6BC88600C5DC11 /* JSONTransientEntity.m in Sources */,
+				22440CF519547B570077CF1F /* ShareUtilities.m in Sources */,
+				2221D7CB1A50399E0004ECF4 /* InlineMultilineEditTableViewCell.m in Sources */,
+				22317009198E7FD500353BAE /* Configuration.m in Sources */,
+				22B7885C19164AAC00C99EC3 /* SchoolYearGeneralViewController.m in Sources */,
+				2241D30319E1418600A433BA /* Attachment.m in Sources */,
+				22578DBD18829DFB000C5B6F /* JSONModelClassProperty.m in Sources */,
+				2222965D1B813632001B5D60 /* Word.m in Sources */,
+				2297B4F0197A8CAE00E6C07E /* NSData+Crypto.m in Sources */,
+				2257297B19ECEE7300F09C7E /* JSONRootEntity.m in Sources */,
+				226B37F91B1355DD00174E49 /* TransientAnnotationContainer.m in Sources */,
+				229D156719326BDA00D30A80 /* Codes.m in Sources */,
+				222DEEA61A6BD04400C5DC11 /* ModelBase.m in Sources */,
+				220313C5192786FD000552BF /* StudentTeachingViewController.m in Sources */,
+				22578DC318829DFB000C5B6F /* StartViewController.m in Sources */,
+				22F2818D19D8A69100207B1E /* JSONValueTransformer+UIColor.m in Sources */,
+				224C4185194C8823009FA33D /* InlineCodeSelectionTableViewController.m in Sources */,
+				220DEEED1AAE3469007D6B55 /* XMLReader.m in Sources */,
+				229E98BB1A4EFC3A009B8F93 /* PersonGeneralViewController.m in Sources */,
+				22578DBA18829DFB000C5B6F /* JSONKeyMapper.m in Sources */,
+				2238F650195AA02300D66EBC /* TileViewController.m in Sources */,
+				22578DBE18829DFB000C5B6F /* JSONModelError.m in Sources */,
+				220313CB1927876F000552BF /* PersonAnnotationViewController.m in Sources */,
+				22484E3E191C1F2C0068FEE0 /* AbstractMenuBaseTableViewController.m in Sources */,
+				224C4181194C8823009FA33D /* InlineCountTableViewCell.m in Sources */,
+				226D1DC61A434432004E1ACE /* ContextBinding.m in Sources */,
+				2273C8CB1A42AEA300FDF815 /* InlineEntitySelectionTableViewCell.m in Sources */,
+				22578DBF18829DFB000C5B6F /* JSONValueTransformer.m in Sources */,
+				226452B41A472DF600FD48EA /* ImportApplicationTableViewController.m in Sources */,
+				2271F7DD1AC02C8100D8A058 /* RSDFDatePickerView.m in Sources */,
+				22578DD118829EC5000C5B6F /* UIColor+Extension.m in Sources */,
+				220313BC19278450000552BF /* SchoolClassExamViewController.m in Sources */,
+				22F2817C19D85EB400207B1E /* AnnotationViewController.m in Sources */,
+				22578DC618829DFB000C5B6F /* RootViewController.m in Sources */,
+				226433E51A51530900AC7D3A /* PersonListDetailTableViewController.m in Sources */,
+				22A4BE711A3C7E29005B63BE /* InlineRatingTableViewCell.m in Sources */,
+				2271F7D71AC02C8100D8A058 /* NSCalendar+RSDFAdditions.m in Sources */,
+				22578DCD18829DFB000C5B6F /* SSZipArchive.m in Sources */,
+				22A8D1C5190D34D5005F3688 /* SchoolClassTableViewController.m in Sources */,
+				22440CF8195480E90077CF1F /* ExportCalendarActivity.m in Sources */,
+				226E431F1AF536C70003AD42 /* JSONValueTransformer+NSDateComponents.m in Sources */,
+				228DA6751956F31800106DC7 /* MenuViewController.m in Sources */,
+				2260FD2B1A46CFA0006C76CD /* SettingsExportViewController.m in Sources */,
+				2271F7DC1AC02C8100D8A058 /* RSDFDatePickerMonthHeader.m in Sources */,
+				224C4184194C8823009FA33D /* InlineDatePickerTableViewCell.m in Sources */,
+				22F2818319D85EB400207B1E /* TextAnnotationViewController.m in Sources */,
+				2273D7891AB477A4002593DE /* InlineDisplayTableViewCell.m in Sources */,
+				2200008A1912583100BD5712 /* StudentTableViewController.m in Sources */,
+				2238F64E195AA02300D66EBC /* TileLayoutView.m in Sources */,
+				22A4BE741A3C86B4005B63BE /* InlineColorPickerTableViewCell.m in Sources */,
+				22440D05195486A90077CF1F /* PDFTableViewController.m in Sources */,
+				22F77CAD1916DE0E005AE2A6 /* AppDelegate.m in Sources */,
+				225213611A7A12F500373F65 /* AbstractMenuTableViewController.m in Sources */,
+				229E98C11A4F1581009B8F93 /* TransientConfiguration.m in Sources */,
+				22578DC818829DFB000C5B6F /* ioapi.c in Sources */,
+				22578DB818829DFB000C5B6F /* Student.m in Sources */,
+				224C4186194C8823009FA33D /* InlineCodeSelectionTableViewCell.m in Sources */,
+				227F2505195CA413001A8079 /* TileViewControllerDataSource.m in Sources */,
+				22F2817D19D85EB400207B1E /* ColorPicker.m in Sources */,
+				22B788651916770B00C99EC3 /* SchoolYearVacationPlanViewController.m in Sources */,
+				22C1490919EB02950067411B /* NSString+Extension.m in Sources */,
+				224C417F194C8823009FA33D /* InlineTimeFromToTableViewCell.m in Sources */,
+				220313CE19278B1D000552BF /* AbstractContentTableViewController.m in Sources */,
+				224C4182194C8823009FA33D /* InlinePhotoPickerTableViewCell.m in Sources */,
+				22D500751B2D9C72007CA9D0 /* SetupWelcomeViewController.m in Sources */,
+				22F2817A19D85EB400207B1E /* AnnotationHandler.m in Sources */,
+				22F2818019D85EB400207B1E /* PencilStyle.m in Sources */,
+				226D99FF19328809003041B8 /* AbstractTableViewCell.m in Sources */,
+				220313B61927841F000552BF /* SchoolClassSeatingPlanViewController.m in Sources */,
+				2260FD311A46D342006C76CD /* AnnotationContainer.m in Sources */,
+				22578DCC18829DFB000C5B6F /* ZipArchive.mm in Sources */,
+				22451A5C186F2E3E0035E34F /* main.m in Sources */,
+				221BD0691AB16E6000C91F82 /* InlineSliderTableViewCell.m in Sources */,
+				22578DB618829DFB000C5B6F /* SchoolYear.m in Sources */,
+				2241D30619E16FA400A433BA /* DefaultBindable.m in Sources */,
+				22F2818119D85EB400207B1E /* PencilStyleView.m in Sources */,
+				2222965A1B8120D9001B5D60 /* DictionaryViewController.m in Sources */,
+				2271F7DA1AC02C8100D8A058 /* RSDFDatePickerDayCell.m in Sources */,
+				22F77CA71916DDDA005AE2A6 /* UIButton+Extension.m in Sources */,
+				22578DB218829DFB000C5B6F /* Model.m in Sources */,
+				220313B3192783DA000552BF /* SchoolClassGeneralViewController.m in Sources */,
+				22F2817F19D85EB400207B1E /* ImageAnnotationViewController.m in Sources */,
+				2271F7E01AC0463500D8A058 /* RSDFDatePickerDetailView.m in Sources */,
+				222DEEA31A6BCF8A00C5DC11 /* CodesBase.m in Sources */,
+				22BA26CF18FAC31500CD246B /* SchoolYearTableViewController.m in Sources */,
+				220313B0192783CC000552BF /* SchoolClassTabBarViewController.m in Sources */,
+				22578DC918829DFB000C5B6F /* mztools.c in Sources */,
+				2271F7D81AC02C8100D8A058 /* RSDFDatePickerCollectionView.m in Sources */,
+				22B1A57C1938C1E100B2FF14 /* MainViewController.m in Sources */,
+				220C17AB1943512800D75829 /* AbstractContentDetailTableViewController.m in Sources */,
+				224C4183194C8823009FA33D /* InlineEditTableViewCell.m in Sources */,
+				220313AA19278194000552BF /* SettingsTabBarViewController.m in Sources */,
+				220313C2192786C3000552BF /* StudentGeneralViewController.m in Sources */,
+				22F2817E19D85EB400207B1E /* ImageAnnotationSettingsViewController.m in Sources */,
+				222639A31A4F2120006B8F55 /* PersonListTableViewController.m in Sources */,
+				22B7885219163C4100C99EC3 /* UIBarButtonItem+Extension.m in Sources */,
+				22B7885919164A5700C99EC3 /* SchoolYearTabBarViewController.m in Sources */,
+				220313C81927871F000552BF /* StudentGradeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22451A6F186F2E3E0035E34F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225EBD651A47093600D4B2F0 /* TeacherPlannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22451A79186F2E3E0035E34F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22451A4B186F2E3E0035E34F /* TeacherPlanner */;
+			targetProxy = 22451A78186F2E3E0035E34F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		225EBD5F1A47093600D4B2F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225EBD601A47093600D4B2F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		229D155519322F5800D30A80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229D155619322F5800D30A80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		229D155919322F8C00D30A80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229D155A19322F8C00D30A80 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		229D155C1932311500D30A80 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229D155D1932311500D30A80 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		229D155F1932312000D30A80 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229D15601932312000D30A80 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22451A82186F2E3E0035E34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		22451A83186F2E3E0035E34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22451A85186F2E3E0035E34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TeacherPlanner/TeacherPlanner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeacherPlanner/TeacherPlanner-Prefix.pch";
+				INFOPLIST_FILE = "TeacherPlanner/TeacherPlanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.oklemenz.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = TeacherPlanner;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22451A86186F2E3E0035E34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TeacherPlanner/TeacherPlanner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeacherPlanner/TeacherPlanner-Prefix.pch";
+				INFOPLIST_FILE = "TeacherPlanner/TeacherPlanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.oklemenz.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = TeacherPlanner;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22451A88186F2E3E0035E34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeacherPlanner.app/TeacherPlanner";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeacherPlanner/TeacherPlanner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TeacherPlannerTests/TeacherPlannerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.oklemenz.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = TeacherPlannerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22451A89186F2E3E0035E34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeacherPlanner.app/TeacherPlanner";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeacherPlanner/TeacherPlanner-Prefix.pch";
+				INFOPLIST_FILE = "TeacherPlannerTests/TeacherPlannerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.oklemenz.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = TeacherPlannerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22451A47186F2E3E0035E34F /* Build configuration list for PBXProject "TeacherPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22451A82186F2E3E0035E34F /* Debug */,
+				22451A83186F2E3E0035E34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22451A84186F2E3E0035E34F /* Build configuration list for PBXNativeTarget "TeacherPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22451A85186F2E3E0035E34F /* Debug */,
+				22451A86186F2E3E0035E34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22451A87186F2E3E0035E34F /* Build configuration list for PBXNativeTarget "TeacherPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22451A88186F2E3E0035E34F /* Debug */,
+				22451A89186F2E3E0035E34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22451A44186F2E3E0035E34F /* Project object */;
+}
