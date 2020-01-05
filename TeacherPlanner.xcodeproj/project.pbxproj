@@ -1368,7 +1368,7 @@
 			};
 			buildConfigurationList = 22451A47186F2E3E0035E34F /* Build configuration list for PBXProject "TeacherPlanner" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
